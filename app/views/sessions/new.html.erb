@@ -1,0 +1,7 @@
+<h1>Login</h1>
+
+<%= form_for :employee, url: '/login' do |f|%>
+    Usuario: <%= f.text_field :user %>
+    Password: <%= f.password_field :password %>
+    <%= f.submit "Iniciar Sesion" %>
+<% end %>

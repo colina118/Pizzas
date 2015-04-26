@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d6ed610-faed-481b-870f-561d0dd3d9a2" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\README.rdoc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\images\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\branches.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\clients.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\employees.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\home.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\ingridients.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\ingridients_pizzas.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\managers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\orders.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\orders_pizzas.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\pizzas.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\javascripts\session.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\branches.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\clients.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\employees.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\home.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\ingridients.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\ingridients_pizzas.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\managers.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\orders.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\orders_pizzas.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\pizzas.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\scaffolds.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\assets\stylesheets\session.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\branches_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\clients_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\concerns\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\employees_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\home_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\ingridients_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\ingridients_pizzas_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\managers_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\orders_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\orders_pizzas_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\pizzas_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\controllers\sessions_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\branches_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\clients_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\employees_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\home_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\ingridients_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\ingridients_pizzas_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\managers_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\orders_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\orders_pizzas_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\pizzas_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\helpers\session_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\mailers\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\branch.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\client.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\concerns\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\employee.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\ingridient.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\ingridients_pizza.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\manager.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\order.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\orders_pizza.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\models\pizza.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\branches\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\clients\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\employees\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\home\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\home\a.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\home\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\ingridients_pizzas\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\layouts\application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\managers\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\orders_pizzas\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\pizzas\show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\app\views\sessions\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\bin\bundle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\bin\rails" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\bin\rake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\bin\setup" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config.ru" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\application.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\database.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\environments\development.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\environments\production.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\environments\test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\assets.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\cookies_serializer.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\filter_parameter_logging.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\initializers\wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\locales\en.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\config\secrets.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425205414_create_pizzas.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425205619_create_ingridients.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425210415_create_clients.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425211119_create_branches.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425212008_create_orders.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425213657_create_orders_pizzas.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150425213824_create_ingridients_pizzas.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150426012622_create_employees.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\migrate\20150426012749_create_managers.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\db\seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\lib\assets\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\lib\tasks\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\log\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\log\development.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\public\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\public\422.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\public\500.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\public\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\public\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\branches_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\clients_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\employees_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\home_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\ingridients_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\ingridients_pizzas_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\managers_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\orders_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\orders_pizzas_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\pizzas_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\controllers\session_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\branches.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\clients.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\employees.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\ingridients.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\ingridients_pizzas.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\managers.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\orders.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\orders_pizzas.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\fixtures\pizzas.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\helpers\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\integration\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\mailers\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\branch_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\client_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\employee_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\ingridient_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\ingridients_pizza_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\manager_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\order_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\orders_pizza_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\models\pizza_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\test\test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\-5vaYuuZovPEW8HbFfHTNA0ohjStC4cF3M4ViuxSiVs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\-XS-JBsWELDqI95ujugscL_XMYx2W18cHUL-_w7WCYI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\-YceHLR6hCD4LEXQJnd6hp6rCEfRLOTsJ7APBJSCSEw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\-q6o_-7E_wtXhVMGksVt3MND07nLJYmQV7flzyrPkTA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\-rVZJ8IinATdz512AG77bGpwFmwxCRAN4_MS9T-Ge-Q.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\0dicbIrAtTkGMLkGjg9DqYPjQJ7l1fNlEBAb55gWQHk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1Gv8gNtA0joA-zz2NtbY30XNgRKl33F0_AxrNByGzQo.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1NZYk5HcKQ_619y04jpwoAhanRj0hi8VARd2gn_3a5E.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1VH10gNgrU5pq0PNLutHG9wrlL69PI0XzFzxIVsSrVE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1gA900xVsqVWE2gHRybK2Ojxhz0kZWXxgVjeYu3cv7Y.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1luLhqBZDgXWMZ90vnjhWpmjtRx_9oUIFBMOcj8CY9Y.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1nPAPGEd25pDPGnZa83bRi-2ae-5vwOIM8N-Qqs1fMw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\1tny5xS2W21SlYSzyWsGia4gzZgBjWS5YGMxhL-5tes.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\24BUAW0ypsCqsBK3cbCg1r5kTHqeP52wbPVSMRmyxfA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\28hV9TziTSIcGhQMrM7MZX46DTe3imSfzY5_F84fPDQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\2EALDx7pKn3JfFuPWh2WSjX8devUTKjTz5xA7ndAMlw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\2NmJpS77IQ7sYvJUOpXyAe2oAQKTwdCiKGS-b4-5pJ0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\2_bApqVaXHJJqYVK72VuAuoJnPG0gAbOR3F6u5UWgXQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\31kAc9ZslHlNynfnBS_xHEiSbcP5Vwcvs2HiW1C4YrI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\36g5yEUWNSEg6ktdso05ts_jST2dA-q8IN5ajE11HFs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\3R2hpTwHaf7sj-szR4gFyFBjBiJ-TwlByPRkpHq4PI0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\4AzVNVRsqgf3afjhI-tW92z2HQbTZc946PLQVl1Gjxw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\4DEoXU6PNsws0JA8-ZsdAfYUDiYyT31c7aDe9fl3jaI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\4XzGG9wqBzyTVRysD_kokxclRFGsBMTl6D8pOZop3kU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5Ad6O1-FCX1gAPsScduixj0lZIW8BM20PyyH1WIZ_Qg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5MlWj3WXu6k3KG03xcNZFYmgjdsTqPhhATRhtA2Zzg0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5VYlhy31W5UqvlZsCStrKAVU_lI6Ri5aW0Zthb31OU0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5oajDn1VGgd_U7WtGU7qTiu0CEWL0SRSLV_cfmPZPgg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5r9QHuxslpC4iruiTpWikm9KtpLq_e3JvDkksygRtLs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5txkjYGJphljC99kLZ70mok696hUsXmMuMoRwqSm5Yg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\5vjsn38Jc3hMhtEGLaWKiv_rLzR4imrzj4q8q-Yz560.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\6FT58rfX7jBZiQdZw_MKkshMkZhs0Y4iawakzImY88s.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\6aA1RzA2iI5FetGeXkUt9VmSCkcPpT8GecnInhvhKRU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\6eEGT_drTcnNvAeHAscoe3_I4TqFypBZMqJU--rPjm8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\6eRuNdRz80qjXYw7xNfBAukP9LaKgPHlZxkDrTVJx4o.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\6pUu2KWUUoPVLEZoS6lKwpAvgGuGKHVmgfvwKWDG-KI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\7IhWzraDGwyKUl5bTj0tnlRYGP6inzZMktLpOIaumwk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\7joLtas18GKzp8qKfPgC_xdcBMSqSQhlQYX8v_RlgDQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\7lliuB-9zsL5K7KIeKvvVG3DwAN0_9-MSp7ikCodCwk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\7r-xzUTdPA9kKGGzZz4bn6zIBmioOn8BlV-BZphT5VE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\88kZuhssVuh41pZ_y44PxmpcI_0kSEvyIptqK6EKuac.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\89p_6z9ONRKNH0QXV4PVKlyAJbCeN6P7tOWlfN4FnLk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\8h2pAWOBTuKB9O_y-GTZdF51aDoxP2mu5q5S3X_Sm4o.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\8hfuH2oPbyD5dxWmajLNaonLnwfGWr4X8vJd6Byl7NI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\8lUWB5NPLFMsRfEFpEPH_M3wTXRzGXH7XdhYxRGgz_k.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\9-AkEEoTkM2Ltp5QPVoscqbJDhMT1HUUxXALijvRsDo.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\A9SLHFq9QN2FowVxMBhTKYsan5ZDF8jV9nwyhzgH4bQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\AZu4HcHKMzr7_6r2kHgHGaON48HKfCiXZLR6INB8l-o.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\AqAX5qjVs8gHlDEi68Uj8PX8-v3wwat7H5pk55QDCNw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\B-8rEwLtTuQVXve7_GLkReY_UYpciTsobGzuBK4vPqE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\BDEeautOXYQquVsCNsRLNzv6pYJqw0doY95d2kabSDM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\BNaJHnUQeiD08VKHaygBSnUBJenqEClIPhXuxDj461I.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\BU3NFSCnRRjarddDtgesTf9ObWivfX6T5AO9oKX0ixg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\BWDbterpY_zLMDme0vlV82xqPJQB8WcVXTbEqfv7lUQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Be2Ixgcic7BqG_4_vrbR4G9LjW01tUdd8QnEGPn7nzU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\BkXOZMkUmlnd0Oz45_u2d57VPbXsI7DWVy1mmvS9IW8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\C1106aiRwdvBqTPAk-0HeD2eU56KijB3MfSJ33xQyPI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\C2SaWft5yG3rbpepW_LdWjXtxZdr6I5AaDU9e2hCNeI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\CBkeHlQgyU46pYuwyMS4bkGgsbnZbtJpPQeuYl_nPSI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\COyPMSydTnitwfeCTBRfWfTT6IUSA-4ldoEExm-wcb0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ChyFuJsop0CW2VM-xPYWdn0pmZRz59yQu_4eO2Ar7Vo.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Cvfmgzw5ChEOgs5K0rqmGQY78Nc5rtAGo1MyHgE5424.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\DY93m3XHvqg_k5mHuJi6AJ9UTEXSqA1OIf-UFxOOA10.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\E4ONlTylUAXh6GitVDDw7JoljACtaevRJPBgrl4KWok.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\EDL5ZqwZJtqFoucP6z1YvcyFNz9c9CmB4BZY2b3xo7Y.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\EewTOvpajU3mBl-HdjHZ5PThLMthxqCQrA9iBBLP9mw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\FXrjfpYC5lqQM48Efv8wYoCQ4BZN3bQhhm6lPkqSQ2s.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Fvokr7UqmCl_jnegYAFt4qCIbMDqTzgbsK8i5uigA-I.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\FynySSaUucQ-ec45fyEOtNdraLxAhBFKITfNOmSYWao.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\G4PX_ioCAJqgyJ7RkRtQ6gCcaf1nQxyy42qa5H0nNM0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\GSvqezbqshPKyK4SVPT9whefDUFYG3UjubgjfhJ4N8A.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\HU8nQbprJkUXm4gmPYUDhxxemwj1dzYPh21zCsJkPu8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Ha4gg3srLXBceLmb86PYmwusCciZEbDIytTJXLElB_A.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Hb4WgSPq7C8yauV5iPN19Ncesfb1yK7lGFuCeE7dnt0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\HcOLT2z9Ajbqww_NybXRWHa2OVZ7qFkfra5bzE-EA9Q.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\HsjTOxiWaAJlYMOydVUWZW2-EoukK6W5kUdzfdMv6IU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Hy76sg46NOvYomRR1IBT4l-RlDchqO3kpGVt9ZcM2DM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\IA7MSu6BWjUJ4TAtAh2pCETCTKKk5l9vl8MMGEP51ws.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Ih-rCc4bxRC88kCXTYFHzukYQ0ZDaeD0R9emhMvT6do.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\J25q4qN1xH3AbftAGdAhGC0iGoneozTQ2fTfshopKK8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\KCOkK5Zm0nLoXTgdDV7m9xITgUtmeeVX5vpKRHrSTKM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\KXX1o8vk2dxA2eennONIywdSeHolmiOGiMk-mgqmT7E.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\L6lQ_3aq1pCns6J2N2iM0aC-BouG0BUPxIbt29Zv1e4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Lk7EqoW9Zn14eIaJf6Yfherj47HfzEPlqRdvizbS1_k.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\MdqrPP4NW-LvpP6SobDRkdSt5yjbml5hgHoAS_h2sTM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\MhIIYqLl85US9dU0b1iE9BCUxBu3RsJ7eQkjzswgVZM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\NiLQ5y6X9doMn6fD0RYU6HxL2cXb3M475BOXX_mLe5E.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\P-AwtMvRooALxqdf6arMOFIqxvagLjELxGD8g5Er5dE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\P67B41nC96fShxdj8O_JKZB4dUFNB7TyGiVbrg8_yto.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\P6tGWoaSP2Gh-NeviLDLbYdsTYk9NQbT0YMwU5yabxY.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\PADg96AvTapvbKr0OgIoP2_sVqWT18YHv86uPAW0Tbg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\PfpJytfUbgkYDgM2Cxiq6h9LQVOEPxYjW0ItAhhRXLs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\PuN_1d0oyrJnfmNIm_Xv-kfvZuJS9z9shrBFdtbhT-M.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\QAN5oH3MG6CxtQUPGWIVvNbLwED-KcCvGwVVPQhLaqM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\QWn7PkNItLLnE_75dgKG94VP0u1ypqZ-TF_KWgqYAek.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\QYB0nnWTZEfLtIqvVqRxfoWOak00JdyRH3S3tR_XGME.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\R0aAak5mzBONV9B67xY01r175Dz_0_EpN7qPq-URhww.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\R4vTUgnTrm4tRWu80BGX_Lfnt5YDsN0DhyIgxwWoLR8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\RXtPPZchMXZMgH_dc01SnBdOdoQ7tKblnKwYJogL4rE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\RjthHOsxRq5m5iXeVrjeIIZP0iVaD3xUQNYXXs7cg9A.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\S-6c3jDAv5mmzPvrvTWU1njDxI0NRlw5d0CYI_vIyls.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\SIRnjssysQEhvsaBwLzhr-5w-eVCyoORU7rhHEkC3s4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\STr47PonhuO4cdunqM8lYmfkJ9gcfhYGXILo2mAe_OI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\SUwBXWoUAnCsdwnsn1tCqZxRcneyvSndrIhHMoQlJ7c.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\T79kncIFHAYdGJv4CuWUpkVfZf_3arXrsrCHDzqm298.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\TOGbYmotb5d-AOWrClgOPgcJPrk8oEpoBnPy6VPq3ZE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\TOLs6QwXPYqvkULABSzyp4xa4REecEDvATDifeajJa4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\TaB3TWPv-9QpH29LdfkhdBmg_4yj87X-_k0e54kdne4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ThBWzyaeG-6qWL-xu0bnfrQ56gebO85t_X8yRt8uxik.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\TkVpDI2IIQ3T0gueS5mr5EwZpvp1dOVpvEwzNu5Vl1k.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Ttfl1wbl4KQlB3Eo--YuAkdBKmg8iTqQ-bKdUpj_yeY.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Tw1XpFkL_39HWoMbgJciLsV-fXJu_ZkCKJ5pUBAxp0o.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\U3fPrHtoM-b0_u55FDG1eSR6HBTRqqY3dF1N8k8TxtI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\UbHNxqgoWMjasgIsNc0bO8mnl-lYVnnRuAPg16jYF_I.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\UcSEqn5yY55VoF-MfqeULZeRCdAvcGdL2Emv90nn5mw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\UmQOpKOMMOAC1wBw2lby983ncRvCngu1or8ybavixIs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\UohyM7zf2XxMlGTftDB84_xCs62kA1UYjx6F8sqZxp0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\V4NZT0fgXJnpK4ClODWg6RvYU_DHzJ4NgRatdB7NEEA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\VfzNo4JSLLt_hmDKAilegsUhTVbXrxBJ7FVixi81xiw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\VjzTbgyPUNK3GqBIOfsNbrcCk3V4XE5_Liji-hTeCSs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Vsd5rABCY_fqI7tHWHcBC-5SNgGyVfO1pcB9-UJFUvU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\W1u1q_7YrlsOgMLFtVPqdvxfR1RP__rAgR0JgGAt_0I.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\W7OYDgnobrux6Ky77GRdPiD9CAUBY_Lms3jQd1Wq5fk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\XLsgIhsFs52pTZRvP8YcJknvwSITBTGsn78STcZJHmk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\XjgdEqq3uXztGrTKvZ1lR2YtprluWbCHVAINDVPeTNs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Y-4-hAuuSKHnUDJiKmJFV56kHw2ePfxx9dp01oB90VE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\YCzspG84PtGczyfaHh2XVfIZq9xdCVuXuvqucaOJyy4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\YGBHP_VlhznHXGJvCQNWfXeEYk8gJvN6VSFxLTBVMEE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\YMB7-55WLDslWpwJc2yiiV8sImmVdJRC1pcSd9v0eDE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\YQ8PlRpIwOPw_i-11DILa-gHV7hvNWXX2kr1vmJjcBg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\YW1mvyobg7EphVRyydNd8ECso_H0V9BbrZAoI63Kg8M.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\YyA4966FTi7UYnaQwPBFcYLYLlAd-UjcxcSeueeg9OM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ZBVjsj9rILsna5HYkH7CP29iOngyrFhu5-CewVXnb4U.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ZU3CUo1oH9GCh1-3tX5GgmuMy281AuA6f65xSOLkyrQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ZY2kXVVFWu0zSIAYvurT2_eNKNxQ90Xrnq8tMWulJ6I.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\Zr5NsgsJj61NVTniLvmxxqKPcMz9jcCX4YiACk6udKU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\_G6O4nXGkjNJ6ycp844oSc3tFXRM-W5YjdBXPP087gI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\a0EK7gpPrGfX3NtslrSW1STnMMkgAAwuA6qFXc9Y8oE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\aEcSr0j7IZZcQy0iaiYqTpj_2Qol1jTD7GPaaPwdGkk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\aIXeG5lbT5U5PCWrvOR_9jbaDXokUjESF-cf4sy8hR8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ab8q4YPL1MuClp7OSzR4UQzsvgXmpjc-J3G0v8EYBok.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\avUxFaKXOd0cALWPrp1O-8egLuIshyj6lAofe8VU8SY.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\bkEPwYDzzq8HFQ3SYL8JnO0khkWu3LVZOHMao11WCN0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\c00-lukZMXRsYko5a6VQQQZwiCHBHd2jcBD_zpSSan4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\cJw0zcgMuaK6_I6Q11jI18wzADgBfYeXxxTrRRudeHU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\dGWO-DI2SIeu4HVPOr45yNgT4ZI4bw1MuoJS6qttrCw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\dNX5-LFslHbmDxa0IIArw34SODUFm7Wz0OQgqiMwqXA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\dyT7_sLD6KwM6W7a1ImUQCROPfhQsakNQ1_fNKspg18.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\e9UK0lAu6RSl8wqfSowIDD59ZJ0-GUbBIVTwYLMW1eA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\eD9Psm3id1DyIqXaSF2RXEHSNn4BXsg8w1vBTniq0pE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\exTmV9sdFV_ISKB_iRhYUWFuso1DxNPCPsTPDDEsmJo.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ez5IZn1yJwJTez1gJj0IoeoVYwFSS-AOtMUD0HFwZyA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\f6IJvesXeiatK0lSaTtkBLkWh51QYtpvGZshpcj-gQQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ffH2EoC5gq3jE49x8AU02NmVPxqXym3ULosON_hNXBE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\fqiilR-tuzhAshq4NSgzuWb9qmf7zGH8lU0yN-OxOAg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\gCCjWyIOhrqvhtPwrgDVCMcxUnZTjnSDVr8nMJS0ITY.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\gEDc8zu1kX2mmBvt_6VzQQ8PM2LVwWR-SP2DViAWdMQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\gZqpi8HG55ugGbWQdjIl-sYrmpnqkKiCWC_vXTH1Pbs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\gvBuW0rAUyqvba6Z8XdJgFJbErMI4QdDHA7Ai_CbgE8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\h0ZC3l68DlrUBVGjche-r7HbatCOzlux-KXeOpXmQ1k.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\h0jHKvaMxN5sCf0bWh_CPtkyE88KAtMnm8Cvrpa9tUE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\h6X0ssK9fPIwP3YLknEtyftXZAh9fDYuyUESq_YvKz8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\hGZ0s0vtrnskhtgc7CWRXaLkILDnRt8pTbLLd4OxFnA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\hdz99WWxnsBAkTljIo75FRzMJpHCcYiXSazgR04rEnw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\hgWqgcQxnOpmB_W68yL1zY3P0qIO3glk_YNuJ7Z79fA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\hlW_VKsuO3G45LqzNNTq3JkZ0xRVuSm8pGibv7EovVw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\iUZPq6u1i7pGryOOkxtAgZAoPPG0Jv8ffZy0dQBIND4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\iY-iI06ipLsBiL_Qa8HiU6pxCQdOMdMYpleTvHNT_sY.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ia1TzKxwm3lP9k8JMQfHY4u8A4BK4DRG6oyrifDOoSQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\iw2qZao6RZSxeQP7xU8ePpESWHWx0pZjIP_zAG4xVg0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\jDoErSsOD4QL3yKWMfgnYzOkZUc3eorRrN6q5RyJcH8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\jXOiJVIdma4gTdR0EyQJY6SFk-D4_NWIs6qDab6wOEc.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\kSRjU4weK-pSwV7-c7c4vQ2MMOZ8uIOKeJjZO-iB1gg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\kVsNdSdBDSuUiG1VtZyqj00zN75wZ90DWKXbI7e0QBM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\kbdcpd-y4092jhjelO07ziVD_C25lwhEbQ3jyj4x6sg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\khMyLNSdEImyw7x8rXWwhJ7_RpEs4UYutN7YRuGpDw4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\klQhF9TH0OtnktLuo94X7zLcE_WK8qtuHgD352a88Xo.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\lQwHEQ6huT4pjxm8JhKUW_Cd-griS2j6eX7lz_lB6oQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\l_XXbo4a-WR0HDTpQeVb4UnvScFEfOVOcu-oEmm34VI.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\leBobP1_PrH8KBhNPk6fz5T813BlVzKQ9WnjXmfsf8c.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\lhJuNaUZ_RS8vMngwumyqHaej_18AcdpPFDHsUlYeH0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\m3kNFzv0_1oo5OsYpPlxfx9HdqPIeIEu2saGS2NCiuQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\mpdYrThOZ2C5_H_OKRfQcy1gExq0-qmwCe4cCl_SBBg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\n-4-60jnp7P1L8dG6zp_ucdh-ofthRK81uzV4c6Rn2A.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\n2SCg9HYeIiKoP_jYIvPizgEdZdQwMhNcv-hZhvVa8U.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\o8uwkXSfVnQpsjJ_GQqV5Wir4xnlXtHb9auOTUEJkD0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\oALraD4yuudb7kfoY1iodD1ahoiJEm43Qi9JCdTn7hc.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\oSICmzvNUyrf3wJDfXA8UBX2b36L3g_AMSbm-xBbpKE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\otvjj6_J2fiaINYvp9HObA_Z86mNJzpuLV97V7CsQdM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ovIwiyfrjNaP4LiUdgOyAIFxWgYuFtk2PQX94ovyieA.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\p1OxNUGgVbvm3cg5F3m7b00jZdtoSPWr7qeRKzYW7dk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\p6XBlelPNfELjE-OgxE2zoJwISBKo1in20EOTaxoHP4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\p8QNI3_d4SYvMHfJRlwDMTE77ZEQwpgME6_eBTpNqIQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\pAn0Sbl81tMi8IlvvNPdZcyuZCiSCTkcTfgaAQv1O5o.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\p_7Z29omLObbYgwQXQIUTYOYWtuBOr4ligr0-zCHzAU.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\q_vQak3qKvlriMGzzw9MGDtKx0xKn0hzPLYzrWor2S4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\qtG76I-CtLGvhZwghCNTn2pqFb-uifZvnzXiXG9hHhk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\r3BfmjQgjZLrwzc5b7hD1682HIBMU2hC6EI-DDvLVOs.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\rOlyns1-2TH13NhTw89iEIPFgE_XVci_PZTjIVXVDlg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\rRNBEY6qSVhaPHTYq1eW5MxxW9pME822-YyvZX7ytHE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\rVwwOONq9jIToc9DXxiuOgbSc7OOQ1LC_qesM56uWYk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\rxlq2nsOjI-ExgYbiJ35Wnn5k1PBWwX6kfQkyqDKktQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\sNVjYeXgJnUOozJhrUHSdJxREo-S5H4GglRO2vPa_08.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\sf0B-HaS2rl9EDcvWweHmdydwDz1wyK-rDsB5VhnZU8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\suJjZTCdp0ERl6oQKGhHJelinquQgesuVtk5qlrI68g.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\t52J84LDKtSz0cz-xr16iaAJJ1G_AtM7ofC57gz-ja4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\tQLTF6LeQrikMUIECrSjzNSEVr8WWBrvN4AU_g9eYfE.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\tYJkdOwWaRA9FNaDfRi15m1gymy40gHK_997WWbepQQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\tvVDIt1Y1bQQt7VLz5Ti_pjGyctPpluW5Im3Qrd0LY0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\u-QTZR_lwdht3VrXY8QVkyH3HDoZdfqrNEjXaCa97bM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\u7O0KrNuaM10CFAILeg8ev23YUwOqhesMtL5Ylw4DZg.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\ujBN1pgZlynwcnGC6Mpi9qCAfhXxrf396WgBm1pVqZk.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\vw0mTVHUaHBqxRoq__DkwbulIb3lonsAAPNIeCXdpWw.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\xOU2Oqwknsn2Vq6SyB0Xvyt07zZ5ifbdlw7IOEi1ies.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\xR8oaVW6VcPMNgVxAlBOMnv8zX27zEgZ2jTCopo5_q8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\yAauzTaF-UYwNLzki9LKR0-R38SSOTLYGfy7qf6nrK4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\yOlojNlUnlnJpfO85mwT5AfZ29nUC0hGHhl6h1mYFAo.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\yQ0x8FzMPs5BSyO7gsQHnVK6WC5WHvJMfKUQPxqGVo4.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\yQsx4mRnD0RbMx32IOLI-MyI891l-Sw1Npj-SOdy2zM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\yTcOElRYKU8iHzFSnQslmr7mt9HAUYPFt8_rtEDhUxM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\z8WcPl3lKif5MrKjsDa4XQg4Tpt51JdPg1Fq7BDhOo8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\zOznmRwhV97_RcQcGtkUbBb2g2ZxFNoIhBQ59DbYzoM.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\tmp\cache\assets\development\sprockets\v3.0\zkfv90Jn6f8YxrbbCDEK8-WuMjb3wd7of0JAIde_nok.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\vendor\assets\javascripts\.keep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\pizza\Proyecto\vendor\assets\stylesheets\.keep" afterPath="" />
+    </list>
+    <ignored path="Proyecto.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/components/" />
+    <ignored path="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/public/system/" />
+    <ignored path="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/tmp/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Proyecto@Development__Proyecto.coverage" NAME="Development: Proyecto Coverage Results" MODIFIED="1430080098116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto" MODULE_NAME="Proyecto" />
+    <SUITE FILE_PATH="coverage/Proyecto@db_schema_load__Proyecto.coverage" NAME="db:schema:load: Proyecto Coverage Results" MODIFIED="1430037685616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto" MODULE_NAME="Proyecto" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Proyecto" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/views/sessions/new.html.erb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/models/employee.rb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/controllers/sessions_controller.rb" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/493c8f5e-1a4f-4311-9a39-369d83ba5590/console.sql" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/views/employees/_form.html.erb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/models/branch.rb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/views/employees/index.html.erb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/config/routes.rb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/views/layouts/application.html.erb" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/Gemfile" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/assets/stylesheets/application.css" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/assets/stylesheets/application.css.scss" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/assets/javascripts/application.js" />
+        <option value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/db/migrate/20150426001103_create_employees.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="305" />
+    <option name="y" value="21" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+  </component>
+  <component name="RunManager" selected="Rails.Development: Proyecto">
+    <configuration default="false" name="db:schema:load: Proyecto" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="Proyecto" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:schema:load" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: Proyecto" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: Proyecto" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: Proyecto" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: Proyecto" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:schema:load: Proyecto" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:schema:load: Proyecto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d6ed610-faed-481b-870f-561d0dd3d9a2" name="Default" comment="" />
+      <created>1430033155582</created>
+      <option name="number" value="Default" />
+      <updated>1430033155582</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit 1">
+      <created>1430079933990</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1430079933990</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="305" y="21" width="1400" height="1000" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20693512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24776119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40939596" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/controllers/sessions_controller.rb</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/pizza/Proyecto/app/controllers/sessions_controller.rb</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/493c8f5e-1a4f-4311-9a39-369d83ba5590/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

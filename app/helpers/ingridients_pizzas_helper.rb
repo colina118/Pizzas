@@ -1,0 +1,2 @@
+module IngridientsPizzasHelper
+end

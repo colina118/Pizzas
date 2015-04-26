@@ -1,0 +1,25 @@
+<%= form_for(@ingridients_pizza) do |f| %>
+  <% if @ingridients_pizza.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ingridients_pizza.errors.count, "error") %> prohibited this ingridients_pizza from being saved:</h2>
+
+      <ul>
+      <% @ingridients_pizza.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :pizza_id %><br>
+    <%= f.text_field :pizza_id %>
+  </div>
+  <div class="field">
+    <%= f.label :ingridient_id %><br>
+    <%= f.text_field :ingridient_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
