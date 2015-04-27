@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   get 'home/create'
   get 'home/a'
 
+  get '/menu' => 'application#index'
+  get '/agregar' => 'application#agregarcliente'
+
   resources :ingridients_pizzas
 
   resources :orders_pizzas
@@ -34,6 +37,7 @@ Rails.application.routes.draw do
   post '/users' => 'employees#create'
 
   get '/login' => 'sessions#new'
+  root 'sessions#new'
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
 
@@ -89,7 +93,7 @@ Rails.application.routes.draw do
   # Example resource route within a namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
+  #     # (application/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
 end

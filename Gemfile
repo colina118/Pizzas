@@ -28,7 +28,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 
-# Use Unicorn as the app server
+# Use Unicorn as the application server
 # gem 'unicorn'
 
 # Use Capistrano for deployment
