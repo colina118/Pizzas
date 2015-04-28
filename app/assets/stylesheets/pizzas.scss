@@ -1,3 +1,27 @@
 // Place all the styles related to the pizzas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.table-header {
+  font-size: 25px;
+  color: orange;
+}
+
+.table-cell {
+  font-size: 20px;
+  color: orange;
+}
+
+.navbar-inverse {
+  background-color: orange;
+  border-color: orange;
+}
+
+
+.navbar-inverse .navbar-nav > li >a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li >a:hover, .navbar-inverse .navbar-nav > li >a:focus {
+  color: green;
+}

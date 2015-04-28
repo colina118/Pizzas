@@ -1,4 +1,5 @@
 class PizzasController < ApplicationController
+  helper PizzasHelper
   before_action :set_pizza, only: [:show, :edit, :update, :destroy]
 
   # GET /pizzas
@@ -10,6 +11,7 @@ class PizzasController < ApplicationController
   # GET /pizzas/1
   # GET /pizzas/1.json
   def show
+    @ingredients= get_pizza_ingredients(params[:pizza_id])
   end
 
   # GET /pizzas/new
@@ -70,5 +72,15 @@ class PizzasController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def pizza_params
       params.require(:pizza).permit(:name, :price)
+    end
+
+    def get_pizza_ingredients(pizza_id)
+      final_list = {}
+      ingredients = IngridientsPizza.where(pizza_id: pizza_id)
+      ingredients.each do |x|
+        ing = Ingridient.find(x.ingridient_id)
+        final_list.push(ing)
+      end
+      final_list
     end
 end

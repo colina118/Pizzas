@@ -28341,3 +28341,2230 @@ Processing by PizzasController#index as HTML
   [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
   Rendered pizzas/index.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 871ms (Views: 867.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 14:58:28 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 14:58:28 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (83.1ms)
+Completed 200 OK in 1597ms (Views: 1595.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:01:34 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 974ms (Views: 971.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 15:01:37 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PJBd9qkSZ66rNbSqTIEOMgS2MoVardqLrTN5xStUauZUeZkxu4EHAlReWxr4sMorV9uFaA4SAAfYYxHRMhZTjw==", "employee"=>{"user"=>"a", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (3.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "a"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 27ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:01:38 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 945ms (Views: 943.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lemployees" for 127.0.0.1 at 2015-04-27 15:02:26 -0500
+
+ActionController::RoutingError (No route matches [GET] "/lemployees"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (15.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (254.2ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (107.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (232.2ms)
+
+
+Started GET "/employees" for 127.0.0.1 at 2015-04-27 15:02:33 -0500
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT "employees".* FROM "employees"[0m
+  [1m[35mBranch Load (17.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered employees/index.html.erb within layouts/application (102.1ms)
+Completed 200 OK in 1043ms (Views: 1015.7ms | ActiveRecord: 25.1ms)
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2015-04-27 15:02:36 -0500
+Processing by EmployeesController#new as HTML
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT "branches"."id", "branches"."adress" FROM "branches"[0m
+  Rendered employees/_form.html.erb (69.1ms)
+  Rendered employees/new.html.erb within layouts/application (104.1ms)
+Completed 200 OK in 1172ms (Views: 1167.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/employees" for 127.0.0.1 at 2015-04-27 15:02:47 -0500
+Processing by EmployeesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8HrJFQeevYbUcbPt4wT0OYPMmLcn/dyK+WYQMD3OxbmYkw3SFQ3dKisaXF1XNTAg0KEvWnNCBgaMNngkJIz80A==", "employee"=>{"name"=>"a", "lastname"=>"a", "user"=>"Vanderthal", "branch_id"=>"1", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create Employee"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mEmployee Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM "employees" WHERE "employees"."user" = 'Vanderthal' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT "branches"."id", "branches"."adress" FROM "branches"[0m
+  Rendered employees/_form.html.erb (15.0ms)
+  Rendered employees/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1431ms (Views: 1026.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 15:03:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34306ms (Views: 34304.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 15:04:19 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1409ms (Views: 1406.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 15:04:20 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1170ms (Views: 1168.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 15:04:21 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1102ms (Views: 1099.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 15:04:23 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 910ms (Views: 908.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a5e844b893b146f29ef52811c75bc29b88d8a6eb3f0b28cf334ce98f0844fc6b.css?body=1" for 127.0.0.1 at 2015-04-27 15:04:24 -0500
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 15:04:28 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MvwI2uhW8/VXW/a/xWapIE7KLv2h95dODycFrR5iqGtaFcwd+sWTWagwGQ9xV205HaeZEPVITcJ6d225ByCRAg==", "employee"=>{"user"=>"a", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "a"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:04:28 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 901ms (Views: 899.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:05:57 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 937ms (Views: 935.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:06:12 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 939ms (Views: 937.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:06:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 967ms (Views: 965.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 15:06:54 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QdmmZnQBfyKqK4oOddCUy9FEdmbMFm9z5iWGgS8iw/EpMGKhZpIfjlVAZb7B4VDSginBi5iptf+Tde6VNmD6mA==", "employee"=>{"user"=>"a", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "a"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:06:55 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 883ms (Views: 880.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 15:08:05 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q3XwiF/+cROV+wTkzUippwxLCKMMmqHRlQpU4BD0fccrnDRPTW0Rv2qQ61R5eW2+Xya/Tlgle13gWjz0CbZErg==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (2.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 297ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 15:08:05 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 893ms (Views: 890.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 15:08:20 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (2.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 925ms (Views: 921.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 15:08:52 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:08:52 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 933ms (Views: 931.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:10:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 977ms (Views: 975.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:11:09 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1013ms (Views: 1011.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:11:27 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 901ms (Views: 899.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:11:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 909ms (Views: 908.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:12:28 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1400ms (Views: 1397.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 15:12:51 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1024ms (Views: 1022.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:13:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (8.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (74.1ms)
+Completed 500 Internal Server Error in 123ms
+
+SyntaxError (C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/layouts/application.html.erb:29: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...append=( if current_user.nil? );@output_buffer.safe_append='
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/layouts/application.html.erb:41: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/layouts/application.html.erb:43: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:29: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  app/views/layouts/application.html.erb:41: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:43: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (29.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (105.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:14:42 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 841ms (Views: 838.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a5e844b893b146f29ef52811c75bc29b88d8a6eb3f0b28cf334ce98f0844fc6b.css?body=1" for 127.0.0.1 at 2015-04-27 22:14:43 -0500
+
+
+Started GET "/login?class=smothScroll" for 127.0.0.1 at 2015-04-27 22:15:26 -0500
+Processing by SessionsController#new as HTML
+  Parameters: {"class"=>"smothScroll"}
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 898ms (Views: 896.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?class=smothScroll" for 127.0.0.1 at 2015-04-27 22:15:30 -0500
+Processing by SessionsController#new as HTML
+  Parameters: {"class"=>"smothScroll"}
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 361ms (Views: 360.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?class=smothScroll" for 127.0.0.1 at 2015-04-27 22:15:30 -0500
+Processing by SessionsController#new as HTML
+  Parameters: {"class"=>"smothScroll"}
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 244ms (Views: 244.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:15:31 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:15:31 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 616ms (Views: 616.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 22:15:33 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 359ms (Views: 333.2ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:15:40 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:15:40 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 258ms (Views: 256.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:16:03 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 237ms (Views: 237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:16:11 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 286ms (Views: 285.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:16:35 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 501ms (Views: 501.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:16:38 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:16:38 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 360ms (Views: 360.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:18:22 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 448ms (Views: 447.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:23:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 286ms (Views: 286.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:23:59 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:23:59 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 215ms (Views: 214.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:24:28 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hNZOCeIwiCOmfX1IgMVBmR9LYZyLg/c+lhcd83+FAMnsP4rO8KPoj1kWkvg09IWATCbWcd88LbLjR3XnZsc5oA==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (7.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 257ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:24:28 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 312ms
+
+ActionView::Template::Error (uninitialized constant ApplicationController::User):
+    21:     <div class="navbar-collapse collapse">
+    22:       <ul class="nav navbar-nav">
+    23:         <li class="active"><%= link_to 'Home', '/', class: 'smothScroll' %></li>
+    24:         <% if current_user %>
+    25:           <li><%= link_to 'Login', '/login', class: 'smothScroll' %></li>
+    26:           <li><%= link_to 'Create Account', '/signup', class: 'smothScroll' %></li>
+    27:         <% else %>
+  app/controllers/application_controller.rb:7:in `current_user'
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb___218094320_79577052'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.2ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (107.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (244.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:25:14 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 730ms
+
+ActionView::Template::Error (uninitialized constant ApplicationController::User):
+    21:     <div class="navbar-collapse collapse">
+    22:       <ul class="nav navbar-nav">
+    23:         <li class="active"><%= link_to 'Home', '/', class: 'smothScroll' %></li>
+    24:         <% if current_user %>
+    25:           <li><%= link_to 'Login', '/login', class: 'smothScroll' %></li>
+    26:           <li><%= link_to 'Create Account', '/signup', class: 'smothScroll' %></li>
+    27:         <% else %>
+  app/controllers/application_controller.rb:7:in `current_user'
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb___218094320_79577052'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.4ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.5ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (84.6ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (184.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:26:04 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 555ms (Views: 552.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:26:15 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L2zZN1LQzQbCfEGezIAxtCz6GShuqHVeF8Xhy6WAYpRHhR3wQEOtqj0Xri54sfWtf5euxToXr9JilYnfvMJb/Q==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 73ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:26:16 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 261ms (Views: 260.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:27:54 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 382ms (Views: 376.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:28:03 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:28:03 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 369ms (Views: 369.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:28:13 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:28:13 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 245ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:28:19 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 318ms (Views: 317.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:28:41 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 269ms (Views: 267.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:28:43 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 210ms (Views: 209.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:28:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 267ms (Views: 265.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:28:59 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sZoR9T3iOxjuYg0rrf1MkQnxDn5M2TbhgzKuqSNitA7Zc9UyL3FbtBEJ4psZzIiIWpy5kxhm7G32Ysa9OiCNZw==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 88ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:28:59 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 228ms (Views: 226.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:29:05 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:29:05 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 238ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:30:58 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 333ms (Views: 331.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:31:00 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:31:00 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 273ms (Views: 271.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:31:39 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 291ms (Views: 291.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:31:41 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 294ms (Views: 293.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:31:42 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 264ms (Views: 262.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:31:44 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:31:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 261ms (Views: 260.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:31:51 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dQik+EMkqQx690kb3Mx1XA+fgufC5l6A1B/Wyh0wHuYd4WA/UbfJoIWcpqto/bFFXPI1CpZZhAyhT77eBHInjw==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 75ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:31:51 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 219ms (Views: 216.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:32:01 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 412ms (Views: 409.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:32:11 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aKUW2Qn+HS1EL+MKEmNdRDb/G8y3wKKlQPN6tRfVqSIATNIeG219gbtEDLqmUpldZZKsIeN/eCk1oxKhDpeQSw==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (0.9ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "straught8"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 73ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:32:11 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 678ms (Views: 677.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:32:19 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LbF+guk9/21PfZ6KSPPBD+h5x5MoWOy6yn5hZDdb/qlFWLpF+66fwbAWcTr8wgUWuxRwfnznNja/LglwLhnHwA==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "straught8"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 78ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:32:19 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 310ms (Views: 308.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:33:23 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 373ms (Views: 372.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:33:26 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:33:26 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 265ms (Views: 264.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:33:34 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I6uaqLnLUxrwsB+DI94EDAkCF1NomCgDXnT8jxEdw6tLQl5vq1gztg/b8DOX78AVWm+gvjwn8o8rJJSbCF/6wg==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 76ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:33:35 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 288ms (Views: 287.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:33:37 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 241ms (Views: 239.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:33:42 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tmHJqCb1GhHTao5OJYlIINtz6SZzGW6m/odWlbMK6uDeiA1vNGZ6vSwBYf6RuIw5iB5eyyemtCqL1z6BqkjTiQ==", "employee"=>{"user"=>"Vanderthal", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "Vanderthal"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 87ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:33:43 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 275ms (Views: 274.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:33:50 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (7.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 292ms (Views: 279.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-04-27 22:33:57 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered pizzas/show.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 275ms (Views: 273.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 22:34:07 -0500
+Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients"[0m
+  Rendered clients/index.html.erb within layouts/application (7.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 251ms (Views: 246.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:34:11 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:34:11 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 258ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-27 22:34:13 -0500
+Processing by EmployeesController#new as HTML
+  [1m[36mBranch Load (7.0ms)[0m  [1mSELECT "branches"."id", "branches"."adress" FROM "branches"[0m
+  Rendered employees/_form.html.erb (45.0ms)
+  Rendered employees/new.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 395ms (Views: 385.8ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 22:34:20 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 227ms (Views: 225.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:44:11 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8Oa/Ul1dOykOKVVW1mSq54enSscMjjK4t3xfnxBIFCSYD3uVT85bhfFCuuZiVW7+1Mr9Klgx6DTCLDeLCQotTQ==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 129ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:44:11 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 10925ms (Views: 10925.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a5956e7d097ec0e9ba9755426ab94b6823ff5d63faeb304c624429d0bfac8013.css?body=1" for 127.0.0.1 at 2015-04-27 22:44:22 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:44:42 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 928ms (Views: 924.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 22:44:53 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (8.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 876ms (Views: 872.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:45:07 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 52280ms (Views: 52276.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:45:59 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 17344ms (Views: 17339.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:46:17 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 961ms (Views: 956.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:46:18 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 22:46:18 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:46:18 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 871ms (Views: 868.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 22:46:19 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 968ms (Views: 966.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-77777fd344fb5066d3aa5b656760ad0eca441c617e5c846ba4d2247493a3b97e.css?body=1" for 127.0.0.1 at 2015-04-27 22:46:20 -0500
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 22:46:34 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pPIPNdcSNV6nLEzeF3z5ObF/+wYZhXK+ek9+Bm4Q80jMG8vyxYFV8lhHo26jTT0g4hJM6006qDIPHxYSd1LKIQ==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 303ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 22:46:34 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1018ms (Views: 1015.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:46:40 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (2.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 981ms (Views: 976.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:46:41 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 878ms (Views: 874.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:58:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (9.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 8566ms (Views: 8534.6ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.self-b1b4914745b362b46e2edd8085a4f510183f47650f5808717e3da8352ac9e819.css?body=1" for 127.0.0.1 at 2015-04-27 22:58:27 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 22:58:52 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 224ms (Views: 223.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:00:40 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 7520ms (Views: 7518.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-592cf5acadf5faf9e670b79aacfe45c627e778acf21275dba8c72e2a397c6088.css?body=1" for 127.0.0.1 at 2015-04-27 23:00:47 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:01:08 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 7420ms (Views: 7418.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-5d624d3129c183a3da537a19afcdb3e816aed497847c93945827bf7af2368c71.css?body=1" for 127.0.0.1 at 2015-04-27 23:01:16 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:05:40 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 216ms (Views: 213.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 23:06:10 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (10.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 223ms (Views: 222.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-04-27 23:06:14 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-27 23:06:14 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 219ms (Views: 218.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-04-27 23:06:21 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gDu00+EbnDRXiKTp3EPfMnWn6OMEg964vQxQGx/w/Cbo0nAU84j8mKjjS1lochsrJspfDlA8BDTIXDgPBrLFTw==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-04-27 23:06:21 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 238ms (Views: 237.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:06:29 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 219ms (Views: 218.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:07:13 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 232ms (Views: 231.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:10:03 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 7721ms (Views: 7721.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4c243815a0aeb21e408a1d4b9e02daeca4bbe2d8adf7ac4b57efa93910d62292.css?body=1" for 127.0.0.1 at 2015-04-27 23:10:11 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:11:09 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 208ms (Views: 208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:12:54 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 221ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:13:53 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 222ms (Views: 221.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:15:58 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 228ms (Views: 226.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:16:09 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 230ms (Views: 229.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-27 23:16:12 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 225ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img/app-bg.png" for 127.0.0.1 at 2015-04-27 23:16:12 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/app-bg.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (60.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:16:15 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 221ms (Views: 221.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:16:19 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 231ms (Views: 230.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:18:43 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3572ms (Views: 3570.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-15e65e4f31287e0ad5672261c58f72a84e4913a8720e67bcf9bb0afdf04af680.css?body=1" for 127.0.0.1 at 2015-04-27 23:18:47 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:20:26 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3210ms (Views: 3209.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-52973617b06524f1e87875bce2d2eb445189ff26d0e9d92aad4c62d5e6789df3.css?body=1" for 127.0.0.1 at 2015-04-27 23:20:29 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:20:52 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3027ms (Views: 3027.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8afc4853500bbe852278679bb5cb877f52a35ead7640e1c4e0e7d849721d041a.css?body=1" for 127.0.0.1 at 2015-04-27 23:20:55 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:21:24 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3173ms (Views: 3173.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-db6f820f52c414e4b8737e5cc8f9b91407bcc56f130dfdd59a71aa4774086316.css?body=1" for 127.0.0.1 at 2015-04-27 23:21:28 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:21:46 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3022ms (Views: 3020.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-07d3f051d87e4807e48f4c1148acefa34928187a298225307f752c0c5eb937c8.css?body=1" for 127.0.0.1 at 2015-04-27 23:21:49 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:22:32 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3106ms (Views: 3104.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-bb9b9b9026ac32e8a033aa3b02427bf9a35388aee9b9591f9a845b87f96803cc.css?body=1" for 127.0.0.1 at 2015-04-27 23:22:35 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:22:46 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3105ms (Views: 3104.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:23:53 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 235ms (Views: 234.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:24:51 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 669ms
+
+ActionView::Template::Error (Invalid CSS after "...vbar-nav > li a": expected "{", was ""):
+    2: <html>
+    3: <head>
+    4:   <title>Proyecto</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/pizzas.scss:21
+  app/assets/stylesheets:10
+  app/assets/stylesheets/application.css.scss:3
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__511295258_93551832'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (49.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:25:36 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 614ms
+
+ActionView::Template::Error (Invalid CSS after "  color:": expected expression (e.g. 1px, bold), was "}"):
+    2: <html>
+    3: <head>
+    4:   <title>Proyecto</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/pizzas.scss:25
+  app/assets/stylesheets:10
+  app/assets/stylesheets/application.css.scss:3
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__511295258_93551832'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (52.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:26:33 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3177ms (Views: 3176.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-dfe21a7397f1dc78896366aedb52b1edcef4186a8b004e1dc4c061ac69150c24.css?body=1" for 127.0.0.1 at 2015-04-27 23:26:36 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:26:53 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3140ms (Views: 3140.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ff0daf647c4f7aa51025177648f542dc8cc9a9f6a27c9b78770b0e7427bb507.css?body=1" for 127.0.0.1 at 2015-04-27 23:26:56 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:27:34 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3151ms (Views: 3149.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-3c90596031c20adc20e8bec1f02f00bebfeeb33c34c0ec22c88396d10fe73024.css?body=1" for 127.0.0.1 at 2015-04-27 23:27:37 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:28:21 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3085ms (Views: 3085.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a4a5796026d696a1285e6a051b3f450a78f474046882d8945c6ff0ac0dfa54ef.css?body=1" for 127.0.0.1 at 2015-04-27 23:28:24 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:29:05 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3113ms (Views: 3110.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-1c8fa4ee54b1577a1c30abde5281e701125bb89316a5730177a8fe7863efcb07.css?body=1" for 127.0.0.1 at 2015-04-27 23:29:08 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:29:27 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (7.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 497ms (Views: 483.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:29:27 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 212ms (Views: 211.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:29:27 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 218ms (Views: 217.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-0833f1142aad2b727ad60f473a612d34b014b8df32d3531bec4a940abf004e30.js?body=1" for 127.0.0.1 at 2015-04-27 23:29:28 -0500
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-04-27 23:29:39 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (9.0ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (12.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 611ms (Views: 594.4ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-04-27 23:29:39 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 216ms (Views: 215.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for 127.0.0.1 at 2015-04-27 23:29:40 -0500
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-04-27 23:29:40 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:29:44 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 275ms (Views: 274.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:30:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (11.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 603ms (Views: 583.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:30:29 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 266ms (Views: 254.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:31:21 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 217ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:33:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (9.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 894ms (Views: 860.6ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:34:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (12.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 672ms (Views: 633.4ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:34:14 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 278ms (Views: 275.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:34:15 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 250ms (Views: 250.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:34:16 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 237ms (Views: 236.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:34:21 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 241ms (Views: 241.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:34:59 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (2.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (11.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 242ms (Views: 233.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:35:51 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 230ms (Views: 228.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:37:10 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 269ms (Views: 266.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:37:30 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 233ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:37:36 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 229ms (Views: 228.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:37:48 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 219ms (Views: 219.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:38:08 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 225ms (Views: 223.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:39:21 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 222ms (Views: 222.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:40:16 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 240ms (Views: 239.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:40:49 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 261ms (Views: 260.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:41:24 -0500
+Processing by ClientsController#index as HTML
+  Rendered clients/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:25: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...d=( link_to 'Ver', client class:"btn btn-default pull-right"...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:25: syntax error, unexpected ')', expecting :: or '[' or '.'
+...:"btn btn-default pull-right" );@output_buffer.safe_append='...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:26: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...ient_path(client), client class:"btn btn-default pull-right"...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:26: syntax error, unexpected ')', expecting :: or '[' or '.'
+...:"btn btn-default pull-right" );@output_buffer.safe_append='...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:27: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...'Are you sure?' }, client class:"btn btn-default pull-right"...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+...:"btn btn-default pull-right" );@output_buffer.safe_append='...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;           end 
+                       ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/clients/index.html.erb:25: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/clients/index.html.erb:25: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/clients/index.html.erb:26: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/clients/index.html.erb:26: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/clients/index.html.erb:27: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/clients/index.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/clients/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+  app/views/clients/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/clients/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (52.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:41:24 -0500
+Processing by ClientsController#index as HTML
+  Rendered clients/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:25: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...d=( link_to 'Ver', client class:"btn btn-default pull-right"...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:25: syntax error, unexpected ')', expecting :: or '[' or '.'
+...:"btn btn-default pull-right" );@output_buffer.safe_append='...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:26: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...ient_path(client), client class:"btn btn-default pull-right"...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:26: syntax error, unexpected ')', expecting :: or '[' or '.'
+...:"btn btn-default pull-right" );@output_buffer.safe_append='...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:27: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...'Are you sure?' }, client class:"btn btn-default pull-right"...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+...:"btn btn-default pull-right" );@output_buffer.safe_append='...
+...                               ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;           end 
+                       ^
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/clients/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/clients/index.html.erb:25: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/clients/index.html.erb:25: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/clients/index.html.erb:26: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/clients/index.html.erb:26: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/clients/index.html.erb:27: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/clients/index.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/clients/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+  app/views/clients/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/clients/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (48.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:41:51 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 225ms (Views: 223.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:42:17 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 223ms (Views: 222.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:43:16 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 224ms (Views: 223.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2015-04-27 23:43:16 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:44:20 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 256ms (Views: 253.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:44:34 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 239ms (Views: 238.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:44:48 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 235ms (Views: 235.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-04-27 23:44:53 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPizza Load (0.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 216ms (Views: 214.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:46:11 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 227ms (Views: 227.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:47:18 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 230ms (Views: 228.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:47:58 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 224ms (Views: 222.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:48:32 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 259ms (Views: 256.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:48:43 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 246ms (Views: 245.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:48:46 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 235ms (Views: 234.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-04-27 23:48:49 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 239ms (Views: 237.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:48:57 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 230ms (Views: 227.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:49:07 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 241ms (Views: 239.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:49:27 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 230ms (Views: 228.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:51:49 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (no implicit conversion of Float into String):
+    20:     <% @pizzas.each do |pizza| %>
+    21:         <tr>
+    22:           <td class="table-cell"><%= pizza.name %></td>
+    23:           <td class="table-cell"><%= price(pizza.price) %></td>
+    24:           <td><%=  link_to '', pizza, class: "glyphicon glyphicon-eye-open" %></td>
+    25:         </tr>
+    26:     <% end %>
+  app/helpers/pizzas_helper.rb:3:in `+'
+  app/helpers/pizzas_helper.rb:3:in `price'
+  app/views/pizzas/index.html.erb:23:in `block in _app_views_pizzas_index_html_erb__214685030_83766948'
+  app/views/pizzas/index.html.erb:20:in `_app_views_pizzas_index_html_erb__214685030_83766948'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (52.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-27 23:52:13 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 240ms (Views: 231.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/ingridients" for 127.0.0.1 at 2015-04-27 23:56:18 -0500
+Processing by IngridientsController#index as HTML
+  [1m[36mIngridient Load (7.0ms)[0m  [1mSELECT "ingridients".* FROM "ingridients"[0m
+  Rendered ingridients/index.html.erb within layouts/application (10.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 249ms (Views: 230.2ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:08:46 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 242ms (Views: 232.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-04-28 00:08:49 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridientsPizza Load (20.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."pizza_id" IS NULL
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 271ms (Views: 240.2ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:08:53 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 244ms (Views: 243.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:10:39 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 234ms (Views: 232.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/ingridients" for 127.0.0.1 at 2015-04-28 00:10:44 -0500
+Processing by IngridientsController#index as HTML
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT "ingridients".* FROM "ingridients"
+  Rendered ingridients/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 245ms (Views: 238.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/ingridients/new" for 127.0.0.1 at 2015-04-28 00:10:48 -0500
+Processing by IngridientsController#new as HTML
+  Rendered ingridients/_form.html.erb (27.0ms)
+  Rendered ingridients/new.html.erb within layouts/application (89.2ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 335ms (Views: 332.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ingridients" for 127.0.0.1 at 2015-04-28 00:11:10 -0500
+Processing by IngridientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wds0JCyPwsyoiFpIJ6AGomsFBsCYl2YJVH6Lgbo1oBmpMvDjPhyiYFfjtfiTkcK7OGixLcwovIUhLuOVo3eZcA==", "ingridient"=>{"name"=>"salami", "price"=>"15"}, "commit"=>"Create Ingridient"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (14.0ms)[0m  INSERT INTO "ingridients" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "salami"], ["price", 15.0], ["created_at", "2015-04-28 05:11:10.882372"], ["updated_at", "2015-04-28 05:11:10.882372"]]
+  [1m[36m (23.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ingridients/1
+Completed 302 Found in 41ms (ActiveRecord: 37.8ms)
+
+
+Started GET "/ingridients/1" for 127.0.0.1 at 2015-04-28 00:11:10 -0500
+Processing by IngridientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered ingridients/show.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 234ms (Views: 232.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ingridients" for 127.0.0.1 at 2015-04-28 00:11:12 -0500
+Processing by IngridientsController#index as HTML
+  [1m[35mIngridient Load (1.0ms)[0m  SELECT "ingridients".* FROM "ingridients"
+  Rendered ingridients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 229ms (Views: 228.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ingridients/new" for 127.0.0.1 at 2015-04-28 00:11:13 -0500
+Processing by IngridientsController#new as HTML
+  Rendered ingridients/_form.html.erb (2.0ms)
+  Rendered ingridients/new.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 230ms (Views: 229.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ingridients" for 127.0.0.1 at 2015-04-28 00:11:26 -0500
+Processing by IngridientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oIyZJTBYHv4IrSmDevfRU5+YnRnak9XSQ7aXGxXvnd7IZV3iIst+UvfGxjPOxhVKzPUq9I4sD1425v8PDK2ktw==", "ingridient"=>{"name"=>"salchicha", "price"=>"20"}, "commit"=>"Create Ingridient"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "ingridients" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "salchicha"], ["price", 20.0], ["created_at", "2015-04-28 05:11:26.357985"], ["updated_at", "2015-04-28 05:11:26.357985"]]
+  [1m[36m (45.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ingridients/2
+Completed 302 Found in 49ms (ActiveRecord: 45.4ms)
+
+
+Started GET "/ingridients/2" for 127.0.0.1 at 2015-04-28 00:11:26 -0500
+Processing by IngridientsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered ingridients/show.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 225ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ingridients" for 127.0.0.1 at 2015-04-28 00:11:28 -0500
+Processing by IngridientsController#index as HTML
+  [1m[35mIngridient Load (1.0ms)[0m  SELECT "ingridients".* FROM "ingridients"
+  Rendered ingridients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 227ms (Views: 225.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:11:31 -0500
+Processing by IngridientsPizzasController#index as HTML
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas"
+  Rendered ingridients_pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 259ms (Views: 257.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ingridients_pizzas/new" for 127.0.0.1 at 2015-04-28 00:11:33 -0500
+Processing by IngridientsPizzasController#new as HTML
+  Rendered ingridients_pizzas/_form.html.erb (2.0ms)
+  Rendered ingridients_pizzas/new.html.erb within layouts/application (11.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 245ms (Views: 241.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 00:11:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 230ms (Views: 229.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img/app-bg.png" for 127.0.0.1 at 2015-04-28 00:11:44 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/app-bg.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (50.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:11:47 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 249ms (Views: 248.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:11:48 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 220ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-04-28 00:11:55 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPizza Load (0.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mIngridientsPizza Load (0.0ms)[0m  [1mSELECT "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."pizza_id" IS NULL[0m
+  Rendered pizzas/show.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 231ms (Views: 229.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:12:04 -0500
+Processing by IngridientsPizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tUuwrVUrtJ+7qErSJ6tnSPkPR2lMC8OiNylezybOMfXdonRqR7jUM0TDpWKTmqNRqmLwhBi0GS5CeTbbP4wInA==", "ingridients_pizza"=>{"pizza_id"=>"1", "ingridient_id"=>"1"}, "commit"=>"Create Ingridients pizza"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.0ms)[0m  INSERT INTO "ingridients_pizzas" ("pizza_id", "ingridient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["pizza_id", 1], ["ingridient_id", 1], ["created_at", "2015-04-28 05:12:04.322204"], ["updated_at", "2015-04-28 05:12:04.322204"]]
+  [1m[36m (14.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ingridients_pizzas/1
+Completed 302 Found in 45ms (ActiveRecord: 42.1ms)
+
+
+Started GET "/ingridients_pizzas/1" for 127.0.0.1 at 2015-04-28 00:12:04 -0500
+Processing by IngridientsPizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT  "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (1.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered ingridients_pizzas/show.html.erb within layouts/application (27.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 273ms (Views: 270.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:12:06 -0500
+Processing by IngridientsPizzasController#index as HTML
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas"
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered ingridients_pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 236ms (Views: 234.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ingridients_pizzas/new" for 127.0.0.1 at 2015-04-28 00:12:07 -0500
+Processing by IngridientsPizzasController#new as HTML
+  Rendered ingridients_pizzas/_form.html.erb (1.0ms)
+  Rendered ingridients_pizzas/new.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 233ms (Views: 232.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:12:12 -0500
+Processing by IngridientsPizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ed/t4HsmpPbapjHH3rS8AM+iknXsinUucrsWoUm+hdJ5NiknabXEWiXN3ndqhXgZnM8lmLg1r6IH6361UPy8uw==", "ingridients_pizza"=>{"pizza_id"=>"1", "ingridient_id"=>"2"}, "commit"=>"Create Ingridients pizza"}
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "ingridients_pizzas" ("pizza_id", "ingridient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["pizza_id", 1], ["ingridient_id", 2], ["created_at", "2015-04-28 05:12:12.838105"], ["updated_at", "2015-04-28 05:12:12.838105"]]
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ingridients_pizzas/2
+Completed 302 Found in 11ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/ingridients_pizzas/2" for 127.0.0.1 at 2015-04-28 00:12:12 -0500
+Processing by IngridientsPizzasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT  "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered ingridients_pizzas/show.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 232ms (Views: 231.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:12:14 -0500
+Processing by IngridientsPizzasController#index as HTML
+  [1m[35mIngridientsPizza Load (0.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas"
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered ingridients_pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 235ms (Views: 234.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ingridients_pizzas/new" for 127.0.0.1 at 2015-04-28 00:12:15 -0500
+Processing by IngridientsPizzasController#new as HTML
+  Rendered ingridients_pizzas/_form.html.erb (1.0ms)
+  Rendered ingridients_pizzas/new.html.erb within layouts/application (2.5ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 224ms (Views: 222.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:12:20 -0500
+Processing by IngridientsPizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QdjKdz6hnKHcfwHvd/VENWpCLOYBIDIeNHJMZsS93eopMQ6wLDL8DSMU7l/DxIAsOS+bC1Wf6JJBIiRy3f/kgw==", "ingridients_pizza"=>{"pizza_id"=>"3", "ingridient_id"=>"1"}, "commit"=>"Create Ingridients pizza"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "ingridients_pizzas" ("pizza_id", "ingridient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["pizza_id", 3], ["ingridient_id", 1], ["created_at", "2015-04-28 05:12:20.734354"], ["updated_at", "2015-04-28 05:12:20.734354"]]
+  [1m[36m (77.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ingridients_pizzas/3
+Completed 302 Found in 80ms (ActiveRecord: 78.1ms)
+
+
+Started GET "/ingridients_pizzas/3" for 127.0.0.1 at 2015-04-28 00:12:20 -0500
+Processing by IngridientsPizzasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mIngridientsPizza Load (0.0ms)[0m  SELECT  "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mIngridient Load (1.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered ingridients_pizzas/show.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 304ms (Views: 300.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/ingridients_pizzas" for 127.0.0.1 at 2015-04-28 00:12:22 -0500
+Processing by IngridientsPizzasController#index as HTML
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas"
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridient Load (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered ingridients_pizzas/index.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 257ms (Views: 255.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:12:24 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 217ms (Views: 215.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-04-28 00:12:26 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPizza Load (1.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mIngridientsPizza Load (1.0ms)[0m  [1mSELECT "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."pizza_id" IS NULL[0m
+  Rendered pizzas/show.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 229ms (Views: 227.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:12:29 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 223ms (Views: 222.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-04-28 00:12:47 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."pizza_id" IS NULL
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 239ms (Views: 236.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:12:48 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 233ms (Views: 232.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas/2" for 127.0.0.1 at 2015-04-28 00:12:50 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPizza Load (0.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mIngridientsPizza Load (0.0ms)[0m  [1mSELECT "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."pizza_id" IS NULL[0m
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 231ms (Views: 229.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:12:51 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 230ms (Views: 229.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas/3" for 127.0.0.1 at 2015-04-28 00:12:53 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mIngridientsPizza Load (1.0ms)[0m  SELECT "ingridients_pizzas".* FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."pizza_id" IS NULL
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 231ms (Views: 229.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-04-28 00:12:55 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 216ms (Views: 214.2ms | ActiveRecord: 1.0ms)

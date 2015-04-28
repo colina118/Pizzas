@@ -1,5 +1,5 @@
-@import "bootstrap";
 @import "bootstrap-sprockets";
+@import "bootstrap";
 @import "*";
 
 .notice
@@ -7,8 +7,9 @@
   text-align: center;
   color: #B00100;
   font-size: 15px;
-
-  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
   height: 30px;
 
   border-width: 1px;

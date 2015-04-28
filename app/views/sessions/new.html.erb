@@ -1,58 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
-  <meta name="author" content="Alvarez.is - BlackTie.co">
-  <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-  <title>Pizzeria Cubells</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-
-
-</head>
-
-<body data-spy="scroll" data-offset="0" data-target="#navigation">
-
-<!-- Fixed navbar -->
-
-
-<section id="home" name="home"></section>
 <div id="headerwrap">
   <div class="container">
     <div class="row centered">
       <div class="col-lg-12">
+        <% if flash[:notice] %>
+            <div class="notice"> <%= flash[:notice] %> </div>
+        <% end %>
         <h1>Bienvenido <b>a la Pizzeria</b></h1>
         <h3>Todas las pizzas deliciosas que buscas.</h3>
         <br>
       </div>
-
       <div class="col-lg-2">
-        <% if flash[:notice] %>
-            <div class="notice"> <%= flash[:notice] %> </div>
-        <% end %>
-        <h1><center>Login</center></h1>
-
-
+        <h1>Login</h1>
         <div>
           <%= form_for :employee, url: '/login' do |f|%>
-              Usuario:  &nbsp &nbsp <bz></bz><%= f.text_field :user %>
-              <br> </br>
-              Password: <%= f.password_field :password %>
-              <br></br>
-              <%= f.submit "Iniciar Sesion" %>
+            <%= f.label 'Usuario: ' %>
+            <%= f.text_field :user %>
+
+            <%= f.label  'Password: '%>
+            <%= f.password_field :password %>
+
+            <%= f.submit "Iniciar Sesion" %>
           <% end %>
         </div>
       </div>
@@ -64,19 +31,5 @@
     </div>
   </div> <!--/ .container -->
 </div><!--/ #headerwrap -->
-
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/bootstrap.js"></script>
-<script>
-    $('.carousel').carousel({
-        interval: 3500
-    })
-</script>
-</body>
-</html>
 
 
