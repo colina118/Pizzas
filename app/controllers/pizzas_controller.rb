@@ -11,7 +11,7 @@ class PizzasController < ApplicationController
   # GET /pizzas/1
   # GET /pizzas/1.json
   def show
-    @ingredients = get_pizza_ingredients(params[:pizza_id])
+    @ingridients = get_pizza_ingridients
   end
 
   # GET /pizzas/new
@@ -74,13 +74,11 @@ class PizzasController < ApplicationController
       params.require(:pizza).permit(:name, :price)
     end
 
-    def get_pizza_ingredients(pizza_id)
-      final_list = {}
-      ingredients = IngridientsPizza.where(pizza_id: pizza_id)
-      ingredients.each do |x|
-        ing = Ingridient.find(x.ingridient_id = Ingridients.ingridient_id)
-        final_list.push(ing)
-      end
-      final_list
-    end
-end
+  def get_pizza_ingridients
+    arr = Ingridient.find_by_sql(["select distinct i.name from ingridients i inner join ingridients_pizzas a on a.ingridient_id = i.id inner join pizzas p on a.pizza_id = p.id where a.pizza_id=?;", params[:id]])
+    @items = arr.map{|x| x.name}
+  end
+
+  end
+
+

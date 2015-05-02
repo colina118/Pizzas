@@ -12,6 +12,9 @@ class ClientsController < ApplicationController
   def show
   end
 
+  def pdf
+    @clients = Client.all
+  end
   # GET /clients/new
   def new
     @client = Client.new

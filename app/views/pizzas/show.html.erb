@@ -10,9 +10,12 @@
   <%= @pizza.price %>
 </p>
 
-<% @ingredients.each do |ing| %>
-  <%= ing.name %>
-<% end %>
+<h2>Ingredientes de la Pizza</h2>
 
-<%= link_to 'Edit', edit_pizza_path(@pizza) %> |
-<%= link_to 'Back', pizzas_path %>
+<% @ingridients.each do |ing| %>
+    <li><%= ing %></li>
+    <% end %>
+
+<br></br>
+<%= link_to 'Edit', edit_pizza_path(@pizza), class:"btn btn-default pull-left" %>
+<%= link_to 'Back', pizzas_path, class:"btn btn-default" %>

@@ -22,6 +22,8 @@ Rails.application.routes.draw do
   get '/menu' => 'application#index'
   get '/agregar' => 'application#agregarcliente'
 
+  get '/imprime' => 'clients#pdf'
+
   get '/signup' => 'employees#new'
   post '/users' => 'employees#create'
 

@@ -7,13 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
 <!-- Fixed navbar -->
   <nav class="navbar navbar-inverse navbar-static-top">
     <div class="navbar-header">
       <%= link_to 'Home', '/', class: 'navbar-brand' %>
     </div>
     <div class="container">
-      <% if current_user %>
+      <% if current_user && %>
         <ul class="navbar-nav nav">
           <li><%= link_to 'Pizzas', pizzas_path, class: 'navbar-link' %></li>
           <li><%= link_to 'Clientes', clients_path, class: 'navbar-link' %></li>
@@ -30,6 +31,7 @@
       </ul>
     </div>
   </nav>
+
 
   <div class="container">
     <%= yield %>

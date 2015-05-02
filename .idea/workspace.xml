@@ -2,226 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a39a31-2976-452c-a8ee-22565b06a4d4" name="Default" comment="4to commit&#10;">
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\.generators" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\Pizzas.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\README.rdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\branches.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\clients.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\employees.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\home.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\ingridients.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\ingridients_pizzas.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\managers.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\orders.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\orders_pizzas.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\pizzas.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\javascripts\session.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\application.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\branches.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\clients.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\employees.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\home.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\ingridients.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\ingridients_pizzas.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\managers.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\orders.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\orders_pizzas.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\pizzas.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\assets\stylesheets\session.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\branches_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\clients_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\concerns\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\employees_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\home_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\ingridients_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\ingridients_pizzas_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\managers_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\orders_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\orders_pizzas_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\pizzas_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\controllers\sessions_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\branches_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\clients_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\employees_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\home_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\ingridients_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\ingridients_pizzas_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\managers_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\orders_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\orders_pizzas_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\pizzas_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\helpers\session_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\mailers\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\branch.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\client.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\concerns\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\employee.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\ingridient.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\ingridients_pizza.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\manager.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\order.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\orders_pizza.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\models\pizza.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\branches\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\clients\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\employees\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\ingridients_pizzas\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\layouts\application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\managers\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\orders_pizzas\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\pizzas\show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\app\views\sessions\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\bin\bundle" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\bin\rails" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\bin\rake" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\bin\setup" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config.ru" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\application.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\database.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\environments\development.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\environments\production.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\environments\test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\assets.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\cookies_serializer.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\filter_parameter_logging.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\initializers\wrap_parameters.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\locales\en.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\config\secrets.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425205414_create_pizzas.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425205619_create_ingridients.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425210415_create_clients.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425211119_create_branches.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425212008_create_orders.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425213657_create_orders_pizzas.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150425213824_create_ingridients_pizzas.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150426012622_create_employees.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\migrate\20150426012749_create_managers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\schema.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\db\seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\lib\assets\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\lib\tasks\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\log\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\log\development.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\public\404.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\public\422.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\public\500.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\public\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\public\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\branches_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\clients_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\employees_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\home_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\ingridients_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\ingridients_pizzas_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\managers_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\orders_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\orders_pizzas_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\pizzas_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\controllers\session_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\branches.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\clients.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\employees.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\ingridients.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\ingridients_pizzas.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\managers.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\orders.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\orders_pizzas.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\fixtures\pizzas.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\helpers\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\integration\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\mailers\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\branch_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\client_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\employee_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\ingridient_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\ingridients_pizza_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\manager_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\order_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\orders_pizza_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\models\pizza_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\test\test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\vendor\assets\javascripts\.keep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Miguel\Documents\tec\Cuarto Semestre\Base de Datos\Pizzerias\Pizzas\vendor\assets\stylesheets\.keep" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/clients/pdf.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/clients/pdf.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/pdfkit.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/v3.0/eOpC9X5xG2uguJp5vuEE9Qi7yC-L2kNuktb4kxFlbO4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/v3.0/eOpC9X5xG2uguJp5vuEE9Qi7yC-L2kNuktb4kxFlbO4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Pizzas.iml" afterPath="$PROJECT_DIR$/.idea/Pizzas.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/clients_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/index.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/new.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/pizzas_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/pizzas_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/show.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pizzas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -238,7 +48,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Pizzas@Development__Pizzas.coverage" NAME="Development: Pizzas Coverage Results" MODIFIED="1430532617845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pizzas" />
+    <SUITE FILE_PATH="coverage/Pizzas@Development__Pizzas.coverage" NAME="Development: Pizzas Coverage Results" MODIFIED="1430600802448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pizzas" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -285,52 +95,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pizzas/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5221843">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ingridients_pizzas/index.html.erb">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ingridients_pizzas_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ingridients_pizzas_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/orders/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding />
+      <file leaf-file-name="DATABASE/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public</OriginalElement>
+              <nodes>
+                <node x="182.0" y="268.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas</node>
+                <node x="303.5" y="0.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.clients</node>
+                <node x="581.0" y="492.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.managers</node>
+                <node x="0.0" y="268.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients</node>
+                <node x="551.0" y="235.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees</node>
+                <node x="0.0" y="678.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.schema_migrations</node>
+                <node x="525.5" y="11.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches</node>
+                <node x="293.25" y="492.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas</node>
+                <node x="70.75" y="492.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas</node>
+                <node x="364.0" y="268.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas">
+                  <point x="40.5" y="-70.5" />
+                  <point x="192.25" y="467.0" />
+                  <point x="222.5" y="467.0" />
+                  <point x="-40.5" y="70.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders">
+                  <point x="40.5" y="-70.5" />
+                  <point x="414.75" y="467.0" />
+                  <point x="445.0" y="467.0" />
+                  <point x="0.0" y="70.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas">
+                  <point x="-40.5" y="-70.5" />
+                  <point x="333.75" y="467.0" />
+                  <point x="303.5" y="467.0" />
+                  <point x="40.5" y="70.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients">
+                  <point x="-40.5" y="-70.5" />
+                  <point x="111.25" y="467.0" />
+                  <point x="81.0" y="467.0" />
+                  <point x="0.0" y="70.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches">
+                  <point x="40.5" y="-70.5" />
+                  <point x="485.5" y="210.0" />
+                  <point x="571.0" y="210.0" />
+                  <point x="-45.5" y="81.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.clients">
+                  <point x="-40.5" y="-70.5" />
+                  <point x="0.0" y="92.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.managers" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees">
+                  <point x="0.0" y="-70.5" />
+                  <point x="0.0" y="103.5" />
+                </edge>
+                <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches">
+                  <point x="0.0" y="-103.5" />
+                  <point x="45.5" y="81.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.78" x="112.14102564102569" y="297.6923076923077" />
+              <SelectedNodes>
+                <node>4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -339,7 +194,47 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.08">
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="managers_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/managers_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -349,37 +244,17 @@
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5945946">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ingridients_pizzas/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pizzas/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="34" column="81" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -403,32 +278,45 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/session.scss" />
         <option value="$PROJECT_DIR$/app/views/app/menu.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/clients/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/application/agregarcliente.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/clients/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/clients/edit.html.erb" />
         <option value="$PROJECT_DIR$/public/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/public/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.old.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pizzas.scss" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/clients/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/pizzas_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/pizza.rb" />
-        <option value="$PROJECT_DIR$/app/views/pizzas/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/client.rb" />
-        <option value="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/ingridients_pizzas/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/orders/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/orders/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/client.pdf.prawn" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/config/boot.rb" />
+        <option value="$PROJECT_DIR$/config.ru" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/pizzas_helper.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/pdfkit.rb" />
+        <option value="$PROJECT_DIR$/app/views/clients/pdf.hmtl.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/clients/pdf.json.jbuilder" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/clients/pdf.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/pizzas/show.html.erb" />
       </list>
     </option>
   </component>
@@ -447,10 +335,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -475,6 +362,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -504,6 +392,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizzas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizzas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -725,7 +631,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -743,11 +649,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -793,9 +695,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -878,6 +779,22 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -980,26 +897,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="1" y="0" width="1918" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23263158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17643923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23263158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.310101" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18137783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31477517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1045,317 +962,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/branches/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0769231">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/orders_pizzas/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/employees/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pizzas.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ingridients_pizza.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ingridient.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39</OriginalElement>
-          <nodes>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_namespace</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_available_extensions</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_ts_config</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_user_sequences</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_ts_template</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_trigger</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_timezone_names</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_class</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_activity</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_foreign_table</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_proc</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_cast</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_db_role_setting</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_index</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.schema_migrations</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_sys_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_am</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stats</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_database</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_conversion</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_ts_config_map</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_constraint</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_aggregate</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_prepared_statements</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_authid</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_user_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_all_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_amproc</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_tablespace</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_shdepend</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_cursors</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_xact_user_functions</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_all_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_attribute</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_foreign_data_wrapper</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.clients</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_attrdef</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_settings</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_depend</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_opfamily</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_sys_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_xact_all_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_all_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_foreign_server</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_replication_slots</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_user_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_sys_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_roles</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_xact_user_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_all_sequences</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_seclabel</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_database</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_bgwriter</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_prepared_xacts</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_ts_dict</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_enum</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_all_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_ts_parser</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_pltemplate</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_user_mappings</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_shdescription</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_available_extension_versions</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_xact_sys_tables</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_replication</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.managers</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_amop</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_seclabels</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_rewrite</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_matviews</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_user_mapping</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_group</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_user_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_shadow</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_operator</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_rules</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_shseclabel</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_views</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_timezone_abbrevs</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_inherits</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_default_acl</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_largeobject</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_sys_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_extension</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statistic</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_user</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_largeobject_metadata</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_opclass</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_archiver</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_language</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_auth_members</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_event_trigger</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_user_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_indexes</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_statio_sys_sequences</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_description</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_locks</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_user_functions</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_range</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_type</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_collation</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.pg_catalog.pg_stat_database_conflicts</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.24367002450313097" x="1844.0" y="1827.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/pizzas_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/session_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6937ea3f/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39/pizzeria_development.public.ingridients_pizzas">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.pg_catalog">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1464,48 +1075,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.17410590518436372" x="1770.0" y="1793.5000000000002" />
+          <settings layout="Hierarchic Group" zoom="0.17410590518436372" x="1770.0" y="1794.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public</OriginalElement>
-          <nodes>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.managers</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.clients</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.schema_migrations</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas</node>
-            <node x="" y="">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8373333333333334" x="386.5" y="365.0" />
-          <SelectedNodes />
-          <Categories>
             <Category>Key columns</Category>
-            <Category>Columns</Category>
           </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.884615">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1513,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1545,7 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1577,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,59 +1156,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="34" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/orders/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pizzas/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ingridients_pizzas/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1649,7 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,15 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,18 +1192,339 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462">
+          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5945946">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/pizzas_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pizzas/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pizzas/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/pdfkit.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/pdf.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/pdf.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/session.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/session_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="34" column="81" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.schema:pizzeria_development.public</OriginalElement>
+          <nodes>
+            <node x="182.0" y="268.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas</node>
+            <node x="303.5" y="0.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.clients</node>
+            <node x="581.0" y="492.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.managers</node>
+            <node x="0.0" y="268.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients</node>
+            <node x="551.0" y="235.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees</node>
+            <node x="0.0" y="678.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.schema_migrations</node>
+            <node x="525.5" y="11.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches</node>
+            <node x="293.25" y="492.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas</node>
+            <node x="70.75" y="492.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas</node>
+            <node x="364.0" y="268.0">4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas">
+              <point x="40.5" y="-70.5" />
+              <point x="192.25" y="467.0" />
+              <point x="222.5" y="467.0" />
+              <point x="-40.5" y="70.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders">
+              <point x="40.5" y="-70.5" />
+              <point x="414.75" y="467.0" />
+              <point x="445.0" y="467.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.pizzas">
+              <point x="-40.5" y="-70.5" />
+              <point x="333.75" y="467.0" />
+              <point x="303.5" y="467.0" />
+              <point x="40.5" y="70.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients_pizzas" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.ingridients">
+              <point x="-40.5" y="-70.5" />
+              <point x="111.25" y="467.0" />
+              <point x="81.0" y="467.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches">
+              <point x="40.5" y="-70.5" />
+              <point x="485.5" y="210.0" />
+              <point x="571.0" y="210.0" />
+              <point x="-45.5" y="81.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.clients">
+              <point x="-40.5" y="-70.5" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.managers" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.employees" target="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.branches">
+              <point x="0.0" y="-103.5" />
+              <point x="45.5" y="81.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.78" x="112.14102564102569" y="297.6923076923077" />
+          <SelectedNodes>
+            <node>4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39.table:pizzeria_development.public.orders</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/managers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.08">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pizzas/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5221843">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
