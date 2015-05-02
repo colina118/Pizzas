@@ -29,6 +29,7 @@ Rails.application.routes.draw do
 
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
+  get '*path' => redirect('/')
 
-  #match ':not_found' => redirect('/signup'), :constraints => { :not_found => /.*/ }
+  #match ':not_found' => redirect('/'), :constraints => { :not_found => /.*/ }
 end

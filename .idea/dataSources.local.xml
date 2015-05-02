@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails Pizzas: development" uuid="4ffc382e-57e7-4bc4-9b60-f4b7d60e1c39">
+      <user-name>postgres</user-name>
+      <user-password>dfe7dfcbdfc9dfcbdfc9dfc5df9adf9ddf8e</user-password>
+      <schema-pattern>pizzeria_development.pg_catalog pizzeria_development.public</schema-pattern>
+      <default-schemas>pizzeria_development.pg_catalog pizzeria_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails Pizzas: test" uuid="59432293-03b8-4e13-8e68-1235e2c80160">
+      <user-name>postgres</user-name>
+      <user-password>dfe7dfcbdfc9dfcbdfc9dfc5df9adf9ddf8e</user-password>
+      <schema-pattern>pizzeria_tes.pg_catalog pizzeria_tes.public</schema-pattern>
+      <default-schemas>pizzeria_tes.pg_catalog pizzeria_tes.public</default-schemas>
+    </data-source>
+    <data-source name="Rails Pizzas: production" uuid="0d43344f-fa04-48ab-8f86-3d4eefe4f1ff">
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
