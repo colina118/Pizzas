@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :ingridients
   resources :pizzas
 
+
   get 'home/_form'
   get 'home/edit'
   get 'home/index'
@@ -28,4 +29,6 @@ Rails.application.routes.draw do
 
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
+
+  #match ':not_found' => redirect('/signup'), :constraints => { :not_found => /.*/ }
 end

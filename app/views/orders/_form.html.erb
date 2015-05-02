@@ -12,12 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :client_id %><br>
-    <%= f.text_field :client_id %>
+    <%= f.label "Cliente" %><br>
+    <%= f.select :client_id, Client.select_values %>
   </div>
   <div class="field">
-    <%= f.label :branch_id %><br>
-    <%= f.text_field :branch_id %>
+    <%= f.label "Sucursal" %><br>
+    <%= f.select :branch_id, Branch.select_values %>
   </div>
   <div class="actions">
     <%= f.submit %>

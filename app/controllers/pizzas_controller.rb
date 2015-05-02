@@ -11,7 +11,7 @@ class PizzasController < ApplicationController
   # GET /pizzas/1
   # GET /pizzas/1.json
   def show
-    @ingredients= get_pizza_ingredients(params[:pizza_id])
+    @ingredients = get_pizza_ingredients(params[:pizza_id])
   end
 
   # GET /pizzas/new
@@ -78,7 +78,7 @@ class PizzasController < ApplicationController
       final_list = {}
       ingredients = IngridientsPizza.where(pizza_id: pizza_id)
       ingredients.each do |x|
-        ing = Ingridient.find(x.ingridient_id)
+        ing = Ingridient.find(x.ingridient_id = Ingridients.ingridient_id)
         final_list.push(ing)
       end
       final_list
