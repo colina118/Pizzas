@@ -11,6 +11,7 @@ class OrdersController < ApplicationController
   # GET /orders/1.json
   def show
     @pizzas = get_order_pizza
+    @pizzu = get_price
   end
 
   # GET /orders/new
@@ -75,6 +76,12 @@ class OrdersController < ApplicationController
 
   def get_order_pizza
     arri = Pizza.find_by_sql(["select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = ?;", params[:id]])
-    @items = arri.map{|x| x.name}
+    arri.map{|x| x.name}
   end
+  def get_price
+    Pizza.find_by_sql(["select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = ?;", params[:id]])
+
+
+  end
+  helper_method :get_price
 end

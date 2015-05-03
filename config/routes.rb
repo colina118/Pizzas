@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   get '/agregar' => 'application#agregarcliente'
 
   get '/imprime' => 'clients#pdf'
+  get '/grafica' => 'orders#graph'
 
   get '/signup' => 'employees#new'
   post '/users' => 'employees#create'

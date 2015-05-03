@@ -5,9 +5,9 @@ class Order < ActiveRecord::Base
 
 
 
-  scope :base_select, -> {select(:id, :client_id)}
+  scope :base_select, -> {select(:id, :id)}
 
   def self.select_values
-    self.base_select.map { |order| [order.client_id, order.id]}
+    self.base_select.map { |order| [order.id, order.id]}
   end
 end

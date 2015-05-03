@@ -43967,3 +43967,2623 @@ Completed 200 OK in 259ms (Views: 258.2ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/assets/yasabia.jpg" for 127.0.0.1 at 2015-05-03 01:19:25 -0500
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:27:10 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 723ms (Views: 718.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:27:11 -0500
+
+
+Started GET "/menu/yoco" for 127.0.0.1 at 2015-05-03 01:27:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 01:27:50 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 302 Found in 527ms (Views: 525.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:27:51 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 292ms (Views: 292.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:27:51 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:27:53 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 373ms (Views: 373.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/putitas" for 127.0.0.1 at 2015-05-03 01:27:56 -0500
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"putitas"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 0]]
+Redirected to http://localhost:3000/menu
+Filter chain halted as :set_client rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:27:56 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 424ms (Views: 421.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:27:57 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:35:00 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 729ms (Views: 724.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:36:14 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 799ms (Views: 795.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pdf" for 127.0.0.1 at 2015-05-03 01:36:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 01:36:18 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 302 Found in 243ms (Views: 242.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:36:18 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 389ms (Views: 387.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:36:18 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:36:22 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 313ms (Views: 313.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:36:25 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 285ms (Views: 284.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:36:44 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 635ms (Views: 631.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/clients/pdf" for 127.0.0.1 at 2015-05-03 01:37:42 -0500
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"pdf"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 0]]
+Redirected to http://localhost:3000/menu
+Filter chain halted as :set_client rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:37:42 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 324ms (Views: 323.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:37:42 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:37:45 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 213ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/pds" for 127.0.0.1 at 2015-05-03 01:37:49 -0500
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"pds"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 0]]
+Redirected to http://localhost:3000/menu
+Filter chain halted as :set_client rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:37:49 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 343ms (Views: 342.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:37:49 -0500
+
+
+Started GET "/clients/pdf" for 127.0.0.1 at 2015-05-03 01:37:55 -0500
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"pdf"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 0]]
+Redirected to http://localhost:3000/menu
+Filter chain halted as :set_client rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 01:37:55 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 353ms (Views: 351.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 01:37:55 -0500
+
+
+Started GET "/imprime" for 127.0.0.1 at 2015-05-03 01:38:10 -0500
+Processing by ClientsController#pdf as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/pdf.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 348ms (Views: 347.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 01:38:30 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 252ms (Views: 249.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/imprime" for 127.0.0.1 at 2015-05-03 01:38:32 -0500
+Processing by ClientsController#pdf as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/pdf.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 389ms (Views: 388.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 01:43:10 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (14.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 823ms (Views: 815.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-05-03 01:43:13 -0500
+Processing by OrdersController#new as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients"."id", "clients"."name" FROM "clients"
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT "branches"."id", "branches"."adress" FROM "branches"[0m
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 218ms (Views: 217.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-05-03 01:43:18 -0500
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fANWaYJNegM95Hul/SbHaZLulkRnTqLcHDtcMZUTOZaFGmjCZklKiPgZJsvzpKBeKgbfCUDaI800sylnChhG4A==", "order"=>{"client_id"=>"2", "branch_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "orders" ("client_id", "branch_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["client_id", 2], ["branch_id", 1], ["created_at", "2015-05-03 06:43:18.225013"], ["updated_at", "2015-05-03 06:43:18.225013"]]
+  [1m[36m (5.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders/6
+Completed 302 Found in 9ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/orders/6" for 127.0.0.1 at 2015-05-03 01:43:18 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPizza Load (0.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 300ms (Views: 297.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 01:43:19 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 345ms (Views: 343.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders_pizzas/new" for 127.0.0.1 at 2015-05-03 01:43:22 -0500
+Processing by OrdersPizzasController#new as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders"."id", "orders"."client_id" FROM "orders"[0m
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas"."id", "pizzas"."name" FROM "pizzas"
+  Rendered orders_pizzas/_form.html.erb (3.0ms)
+  Rendered orders_pizzas/new.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 418ms (Views: 417.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders_pizzas/new" for 127.0.0.1 at 2015-05-03 01:43:56 -0500
+Processing by OrdersPizzasController#new as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders"."id", "orders"."client_id" FROM "orders"
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas"."id", "pizzas"."name" FROM "pizzas"[0m
+  Rendered orders_pizzas/_form.html.erb (78.1ms)
+  Rendered orders_pizzas/new.html.erb within layouts/application (83.1ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 476ms (Views: 434.3ms | ActiveRecord: 21.0ms)
+
+
+Started POST "/orders_pizzas" for 127.0.0.1 at 2015-05-03 01:44:00 -0500
+Processing by OrdersPizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AdyHrk/jnVwrfxSrc9ristAUL+BZqrRTDfBCJD6axKv4xbkFq+et1+6CScV9WIWFaPxmrX4+NUIleDdyoZG73Q==", "orders_pizza"=>{"order_id"=>"2", "pizza_id"=>"1"}, "commit"=>"Create Orders pizza"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "orders_pizzas" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["order_id", 2], ["pizza_id", 1], ["created_at", "2015-05-03 06:44:00.465952"], ["updated_at", "2015-05-03 06:44:00.465952"]]
+PG::ForeignKeyViolation: ERROR:  inserción o actualización en la tabla «orders_pizzas» viola la llave foránea «fk_rails_fbbac8cade»
+DETAIL:  La llave (order_id)=(2) no está presente en la tabla «orders».
+: INSERT INTO "orders_pizzas" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::InvalidForeignKey (PG::ForeignKeyViolation: ERROR:  inserción o actualización en la tabla «orders_pizzas» viola la llave foránea «fk_rails_fbbac8cade»
+DETAIL:  La llave (order_id)=(2) no está presente en la tabla «orders».
+: INSERT INTO "orders_pizzas" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"):
+  app/controllers/orders_pizzas_controller.rb:30:in `block in create'
+  app/controllers/orders_pizzas_controller.rb:29:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (79.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (175.1ms)
+
+
+Started GET "/orders_pizzas/new" for 127.0.0.1 at 2015-05-03 01:44:27 -0500
+Processing by OrdersPizzasController#new as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders"."id" FROM "orders"
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas"."id", "pizzas"."name" FROM "pizzas"[0m
+  Rendered orders_pizzas/_form.html.erb (19.0ms)
+  Rendered orders_pizzas/new.html.erb within layouts/application (20.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 443ms (Views: 432.3ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/orders_pizzas" for 127.0.0.1 at 2015-05-03 01:44:31 -0500
+Processing by OrdersPizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"agVfwyczwhqmBbCdcmY/zoaXvjXKZ3yD+IjPQYQvj3+THGFowzfykWP47fN85Fj5Pn/3eO3z/ZLQALoXGyTwCQ==", "orders_pizza"=>{"order_id"=>"6", "pizza_id"=>"1"}, "commit"=>"Create Orders pizza"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "orders_pizzas" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["order_id", 6], ["pizza_id", 1], ["created_at", "2015-05-03 06:44:31.087478"], ["updated_at", "2015-05-03 06:44:31.087478"]]
+  [1m[36m (4.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders_pizzas/17
+Completed 302 Found in 8ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/orders_pizzas/17" for 127.0.0.1 at 2015-05-03 01:44:31 -0500
+Processing by OrdersPizzasController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mOrdersPizza Load (0.0ms)[0m  SELECT  "orders_pizzas".* FROM "orders_pizzas" WHERE "orders_pizzas"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPizza Load (0.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders_pizzas/show.html.erb within layouts/application (6.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 214ms (Views: 212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 01:44:33 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (22.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 325ms (Views: 323.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders/6" for 127.0.0.1 at 2015-05-03 01:44:35 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (2.0ms)
+  [1m[35mCACHE (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 427ms (Views: 423.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 01:44:36 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (7.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 355ms (Views: 352.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:46:29 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPizza Load (2.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (7.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 726ms (Views: 718.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 01:50:54 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (24.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 244ms (Views: 233.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:50:56 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (0.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 250ms (Views: 237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:51:18 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 229ms (Views: 224.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:53:35 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (18.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 375ms (Views: 351.3ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:55:28 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  Rendered orders/show.html.erb within layouts/application (18.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 363ms (Views: 341.2ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:55:32 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPizza Load (2.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  Rendered orders/show.html.erb within layouts/application (7.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 727ms (Views: 717.5ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:55:32 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  Rendered orders/show.html.erb within layouts/application (4.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 385ms (Views: 380.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPizza Load (1.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  Rendered orders/show.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 289ms (Views: 286.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.self-038d5b1d98f1b5ab65b3655409b4eac61343834ffb2fa99a264090da4ca42bc9.css?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/branches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/employees.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/ingridients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/ingridients_pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/managers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/orders_pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-03 01:55:33 -0500
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:55:35 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (0.0ms)[0m  select sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  Rendered orders/show.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 564ms (Views: 561.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPizza Load (2.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  Rendered orders/show.html.erb within layouts/application (10.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 407ms (Views: 396.3ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/application.self-038d5b1d98f1b5ab65b3655409b4eac61343834ffb2fa99a264090da4ca42bc9.css?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:16 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/branches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/employees.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/ingridients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/ingridients_pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/managers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/orders_pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-03 01:56:17 -0500
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:59:01 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (3.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+Completed 500 Internal Server Error in 82ms
+
+NoMethodError (undefined method `precio' for [#<Pizza id: nil>]:Array):
+  app/controllers/orders_controller.rb:83:in `get_price'
+  app/controllers/orders_controller.rb:14:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (85.5ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (205.6ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 01:59:16 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPizza Load (0.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  Rendered orders/show.html.erb within layouts/application (18.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 505ms (Views: 478.7ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 02:00:36 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mPizza Load (3.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  Rendered orders/show.html.erb within layouts/application (64.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 617ms (Views: 554.4ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2015-05-03 02:00:42 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPizza Load (1.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  [1m[36mPizza Load (0.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '4';
+  Rendered orders/show.html.erb within layouts/application (2.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 602ms (Views: 599.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:01:37 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (2.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (18.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 424ms (Views: 417.3ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2015-05-03 02:01:38 -0500
+
+
+Started GET "/orders_pizzas/new" for 127.0.0.1 at 2015-05-03 02:01:40 -0500
+Processing by OrdersPizzasController#new as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders"."id" FROM "orders"
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas"."id", "pizzas"."name" FROM "pizzas"[0m
+  Rendered orders_pizzas/_form.html.erb (4.0ms)
+  Rendered orders_pizzas/new.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 467ms (Views: 460.3ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/orders_pizzas" for 127.0.0.1 at 2015-05-03 02:01:45 -0500
+Processing by OrdersPizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"at2MvZ4p+86r/4KBV1dFJektfEcNPjJ7vHIGCwMKvq6TxLIWei3LRW4C3+9Z1SISUcU1Ciqqs2qU+nNdnAHB2A==", "orders_pizza"=>{"order_id"=>"5", "pizza_id"=>"2"}, "commit"=>"Create Orders pizza"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "orders_pizzas" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["order_id", 5], ["pizza_id", 2], ["created_at", "2015-05-03 07:01:45.473377"], ["updated_at", "2015-05-03 07:01:45.473377"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders_pizzas/18
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/orders_pizzas/18" for 127.0.0.1 at 2015-05-03 02:01:45 -0500
+Processing by OrdersPizzasController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mOrdersPizza Load (0.0ms)[0m  SELECT  "orders_pizzas".* FROM "orders_pizzas" WHERE "orders_pizzas"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mPizza Load (0.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders_pizzas/show.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 321ms (Views: 319.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:01:46 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 304ms (Views: 301.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2015-05-03 02:01:49 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mPizza Load (0.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  [1m[35mPizza Load (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  Rendered orders/show.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 219ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:01:55 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 260ms (Views: 257.2ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/orders/4" for 127.0.0.1 at 2015-05-03 02:02:00 -0500
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Zc6SoNMDref6rksUz3+eaBtjPzJXlWvaPBLTveLtUxGc16wLNwedbD9TFnrB/flfo4t2f3AB6ssUmqbrfeYsZw==", "id"=>"4"}
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "orders_pizzas" WHERE "orders_pizzas"."order_id" = $1[0m  [["order_id", 4]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = $1  [["id", 4]]
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 13ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:02:00 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 411ms (Views: 410.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders_pizzas/new" for 127.0.0.1 at 2015-05-03 02:02:02 -0500
+Processing by OrdersPizzasController#new as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders"."id" FROM "orders"
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas"."id", "pizzas"."name" FROM "pizzas"[0m
+  Rendered orders_pizzas/_form.html.erb (3.0ms)
+  Rendered orders_pizzas/new.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 368ms (Views: 366.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:02:06 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (4.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 227ms (Views: 227.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:07:49 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 403ms (Views: 400.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 02:07:52 -0500
+Processing by ClientsController#index as HTML
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients".* FROM "clients"[0m
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 253ms (Views: 251.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:07:55 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 560ms (Views: 559.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 02:08:00 -0500
+Processing by ClientsController#index as HTML
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients".* FROM "clients"[0m
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 203ms (Views: 202.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:08:14 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 319ms (Views: 318.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:08:15 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.7ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.7ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 530ms (Views: 527.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pizzas/new" for 127.0.0.1 at 2015-05-03 02:08:21 -0500
+Processing by PizzasController#new as HTML
+  Rendered pizzas/_form.html.erb (6.0ms)
+  Rendered pizzas/new.html.erb within layouts/application (29.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 335ms (Views: 334.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas/new" for 127.0.0.1 at 2015-05-03 02:08:21 -0500
+Processing by PizzasController#new as HTML
+  Rendered pizzas/_form.html.erb (1.0ms)
+  Rendered pizzas/new.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 408ms (Views: 407.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/pizzas" for 127.0.0.1 at 2015-05-03 02:08:33 -0500
+Processing by PizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JwVrpJP+DqhlxprhsL7fdH2CIjqxPE70FwDzMug4wrHeHFUPd/o+I6A7x4++PLhDxWprd5aoz+U/iIZkdzO9xw==", "pizza"=>{"name"=>"Emilio", "price"=>"-10000"}, "commit"=>"Create Pizza"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (52.1ms)[0m  INSERT INTO "pizzas" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "Emilio"], ["price", -10000.0], ["created_at", "2015-05-03 07:08:33.500477"], ["updated_at", "2015-05-03 07:08:33.500477"]]
+  [1m[36m (43.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/pizzas/4
+Completed 302 Found in 100ms (ActiveRecord: 95.2ms)
+
+
+Started GET "/pizzas/4" for 127.0.0.1 at 2015-05-03 02:08:33 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPizza Load (1.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mIngridient Load (3.1ms)[0m  [1mselect distinct i.name from ingridients i inner join ingridients_pizzas a on a.ingridient_id = i.id inner join pizzas p on a.pizza_id = p.id where a.pizza_id='4';[0m
+  Rendered pizzas/show.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 580ms (Views: 557.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/pizzas/4/edit" for 127.0.0.1 at 2015-05-03 02:08:37 -0500
+Processing by PizzasController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered pizzas/_form.html.erb (2.0ms)
+  Rendered pizzas/edit.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 354ms (Views: 352.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:08:39 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 217ms (Views: 216.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas/4" for 127.0.0.1 at 2015-05-03 02:08:41 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mIngridient Load (0.0ms)[0m  select distinct i.name from ingridients i inner join ingridients_pizzas a on a.ingridient_id = i.id inner join pizzas p on a.pizza_id = p.id where a.pizza_id='4';
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 478ms (Views: 474.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:08:44 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 203ms (Views: 201.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pizzas/4" for 127.0.0.1 at 2015-05-03 02:08:51 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPizza Load (1.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mIngridient Load (0.0ms)[0m  [1mselect distinct i.name from ingridients i inner join ingridients_pizzas a on a.ingridient_id = i.id inner join pizzas p on a.pizza_id = p.id where a.pizza_id='4';[0m
+  Rendered pizzas/show.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 487ms (Views: 484.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:08:53 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 315ms (Views: 313.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:09:32 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 346ms (Views: 345.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:10:01 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 13789ms (Views: 13784.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-0c203e19dc2c15a3a745ae2c51aa8d071d4bdcd3f54935bbdee4d5cf29052717.css?body=1" for 127.0.0.1 at 2015-05-03 02:10:15 -0500
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-05-03 02:10:24 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-03 02:10:24 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 871ms (Views: 869.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/yasabia.jpg" for 127.0.0.1 at 2015-05-03 02:10:25 -0500
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 02:10:32 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 924ms (Views: 922.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 02:10:33 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-03 02:10:36 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 866ms (Views: 863.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/yasabia.jpg" for 127.0.0.1 at 2015-05-03 02:10:37 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-03 02:11:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1848ms (Views: 1845.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2015-05-03 02:11:52 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-03 02:12:21 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 912ms (Views: 909.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 02:12:22 -0500
+
+
+Started POST "/login" for 127.0.0.1 at 2015-05-03 02:18:31 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S1oAOEjjRJGPo1S3G48vkRDOaq/p4VmNZiSL3BxqcryyQz6TrOd0GkpeCdkVDUimqCYj4s512JxOrP6Kg2ENyg==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1[0m  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 296ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 02:18:32 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1010ms (Views: 1006.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 02:18:33 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 02:18:34 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 906ms (Views: 900.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:20:21 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (15.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1000ms (Views: 995.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2015-05-03 02:20:24 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mPizza Load (2.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  Rendered orders/show.html.erb within layouts/application (8.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 895ms (Views: 883.6ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2015-05-03 02:20:59 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = 4;[0m
+  Rendered orders/show.html.erb within layouts/application (10.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 915ms (Views: 901.7ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:21:01 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (13.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 956ms (Views: 952.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/orders/6" for 127.0.0.1 at 2015-05-03 02:21:04 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPizza Load (2.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mPizza Load (2.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = 4;
+  Rendered orders/show.html.erb within layouts/application (10.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 885ms (Views: 872.6ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 02:21:11 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (13.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 952ms (Views: 945.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2015-05-03 02:21:13 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = 5;[0m
+  Rendered orders/show.html.erb within layouts/application (10.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 900ms (Views: 886.7ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2015-05-03 02:21:32 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mPizza Load (2.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  Rendered orders/show.html.erb within layouts/application (12.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1335ms (Views: 1322.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 14:37:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (42.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (302.1ms)
+Completed 200 OK in 7852ms (Views: 7774.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 14:37:53 -0500
+
+
+Started POST "/login" for 127.0.0.1 at 2015-05-03 15:04:35 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tGrcufslqPFqRRxDTXgtGarLq2Q/mGjElMf1+saliH58WmWK51yf+wap4SwbO7fb5UyaXlofBYetjtgHSljglg==", "employee"=>{"user"=>"straught8", "password"=>"[FILTERED]"}, "commit"=>"Iniciar Sesion"}
+  [1m[35mEmployee Load (48.1ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."user" = $1 LIMIT 1  [["user", "straught8"]]
+Redirected to http://localhost:3000/menu
+Completed 302 Found in 710ms (ActiveRecord: 114.1ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:04:36 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1006ms (Views: 1002.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 15:04:37 -0500
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 15:04:38 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (23.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (41.1ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1066ms (Views: 910.6ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:04:40 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (50.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (24.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (8.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (22441.2ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 23423ms (Views: 23281.2ms | ActiveRecord: 97.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:05:04 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (64.1ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1037ms (Views: 1028.7ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2015-05-03 15:05:05 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (8.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1068ms (Views: 1063.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 15:05:06 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1034ms (Views: 1030.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:05:07 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (82.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1130ms (Views: 1124.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:05:08 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1023ms (Views: 1020.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:05:09 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 970ms (Views: 967.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:05:10 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (70.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1089ms (Views: 1084.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/javascripts/chartkick.js" for 127.0.0.1 at 2015-05-03 15:05:11 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 15:05:11 -0500
+Processing by SessionsController#new as */*
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (7.0ms)
+Completed 302 Found in 1002ms (Views: 998.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:05:12 -0500
+Processing by ApplicationController#index as */*
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1042ms (Views: 1040.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 15:05:26 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 302 Found in 938ms (Views: 937.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:05:27 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 976ms (Views: 973.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 15:05:28 -0500
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:05:31 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (66.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 990ms (Views: 984.9ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/javascripts/chartkick.js" for 127.0.0.1 at 2015-05-03 15:05:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 15:05:32 -0500
+Processing by SessionsController#new as */*
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 302 Found in 937ms (Views: 934.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:05:33 -0500
+Processing by ApplicationController#index as */*
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 942ms (Views: 939.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:05:44 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (3.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (22104.4ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 23046ms (Views: 23037.1ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/javascripts/chartkick.js" for 127.0.0.1 at 2015-05-03 15:06:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 15:06:07 -0500
+Processing by SessionsController#new as */*
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 302 Found in 950ms (Views: 946.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:06:08 -0500
+Processing by ApplicationController#index as */*
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 978ms (Views: 976.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:08:15 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(client) AS count_client, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+PG::UndefinedColumn: ERROR:  no existe la columna «client»
+LINE 1: SELECT COUNT(client) AS count_client, created_at AS created_...
+                     ^
+: SELECT COUNT(client) AS count_client, created_at AS created_at FROM "orders" GROUP BY created_at
+  Rendered orders/index.html.erb within layouts/application (22159.6ms)
+Completed 500 Internal Server Error in 22177ms
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  no existe la columna «client»
+LINE 1: SELECT COUNT(client) AS count_client, created_at AS created_...
+                     ^
+: SELECT COUNT(client) AS count_client, created_at AS created_at FROM "orders" GROUP BY created_at):
+    37:     <%= link_to 'Nueva Orden', new_order_path, class:"btn btn-default pull-right" %>
+    38:     <%= link_to 'Agregar pizza', new_orders_pizza_path, class:"btn btn-default pull-right" %>
+    39: 
+    40:     <%= bar_chart Order.group(:created_at).count(:client) %>
+    41: 
+    42: 
+    43: 
+  app/views/orders/index.html.erb:40:in `_app_views_orders_index_html_erb___216894210_78559068'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (158.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (141.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (395.3ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:09:20 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (2.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+  Rendered orders/index.html.erb within layouts/application (22149.9ms)
+Completed 500 Internal Server Error in 22166ms
+
+ActionView::Template::Error (undefined method `bar_chart' for #<#<Class:0x99db840>:0x89d73f8>):
+    37:     <%= link_to 'Nueva Orden', new_order_path, class:"btn btn-default pull-right" %>
+    38:     <%= link_to 'Agregar pizza', new_orders_pizza_path, class:"btn btn-default pull-right" %>
+    39: 
+    40:     <%= bar_chart Order.group(:created_at).count(:client_id) %>
+    41: 
+    42: 
+    43: 
+  app/views/orders/index.html.erb:40:in `_app_views_orders_index_html_erb___216894210_72266136'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (107.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (106.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (232.1ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:11:17 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+  Rendered orders/index.html.erb within layouts/application (60.0ms)
+Completed 500 Internal Server Error in 80ms
+
+ActionView::Template::Error (undefined method `bar_chart' for #<#<Class:0x99db840>:0x936a650>):
+    37:     <%= link_to 'Nueva Orden', new_order_path, class:"btn btn-default pull-right" %>
+    38:     <%= link_to 'Agregar pizza', new_orders_pizza_path, class:"btn btn-default pull-right" %>
+    39: 
+    40:     <%= bar_chart Order.group(:created_at).count(:client_id) %>
+    41: 
+    42: 
+    43: 
+  app/views/orders/index.html.erb:40:in `_app_views_orders_index_html_erb___216894210_77286288'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (113.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (243.2ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:12:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (3.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (2.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (2.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (2.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+  Rendered orders/index.html.erb within layouts/application (204.1ms)
+  [1m[35mEmployee Load (2.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 52183ms (Views: 52031.3ms | ActiveRecord: 38.1ms)
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 127.0.0.1 at 2015-05-03 15:13:30 -0500
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:13:49 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at
+  Rendered orders/index.html.erb within layouts/application (18.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 23021ms (Views: 23014.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:14:20 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+  Rendered orders/index.html.erb within layouts/application (18.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1044ms (Views: 1036.8ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:19:41 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at
+  Rendered orders/index.html.erb within layouts/application (17.0ms)
+  [1m[36mEmployee Load (2.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 23230ms (Views: 23221.6ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:22:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (3.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (23.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (2.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (233.2ms)
+  [1m[36mEmployee Load (3.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 24733ms (Views: 24546.9ms | ActiveRecord: 61.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:23:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 15:23:10 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (110.1ms)
+Completed 302 Found in 1222ms (Views: 1218.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:23:11 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1024ms (Views: 1020.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 15:23:12 -0500
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:23:16 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (16.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1027ms (Views: 1019.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:26:05 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (3.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (2.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (201.1ms)
+  [1m[36mEmployee Load (3.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 2611ms (Views: 2451.8ms | ActiveRecord: 35.9ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:26:14 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (2.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1080ms (Views: 1076.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:26:17 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (19.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1064ms (Views: 1058.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:26:20 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+  Rendered orders/graph.html.erb within layouts/application (11.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1024ms (Views: 1018.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:26:25 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (14.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1076ms (Views: 1069.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-05-03 15:26:30 -0500
+Processing by OrdersController#new as HTML
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients"."id", "clients"."name" FROM "clients"[0m
+  [1m[35mBranch Load (1.0ms)[0m  SELECT "branches"."id", "branches"."adress" FROM "branches"
+  Rendered orders/_form.html.erb (85.0ms)
+  Rendered orders/new.html.erb within layouts/application (115.1ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1134ms (Views: 1127.8ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-05-03 15:26:37 -0500
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFhGTlYFfZ1jeLrdUPLAZuH/+cU1tHcweiDIOm8zTdPQaP99SnxKlw+UR7IGsVqkrnjI/1AzGnNDaeXH484lOw==", "order"=>{"client_id"=>"2", "branch_id"=>"2"}, "commit"=>"Create Order"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO "orders" ("client_id", "branch_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 2], ["branch_id", 2], ["created_at", "2015-05-03 20:26:37.850489"], ["updated_at", "2015-05-03 20:26:37.850489"]]
+  [1m[35m (21.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/orders/7
+Completed 302 Found in 40ms (ActiveRecord: 28.0ms)
+
+
+Started GET "/orders/7" for 127.0.0.1 at 2015-05-03 15:26:37 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mPizza Load (64.1ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '7';
+  [1m[36mPizza Load (3.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '7';[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '7';
+  Rendered orders/show.html.erb within layouts/application (11.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1130ms (Views: 1017.6ms | ActiveRecord: 73.1ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:26:41 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (17.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1032ms (Views: 1023.8ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:26:43 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at
+  Rendered orders/graph.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1004ms (Views: 1000.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:26:47 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (18.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1002ms (Views: 994.0ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-05-03 15:26:49 -0500
+Processing by OrdersController#new as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients"."id", "clients"."name" FROM "clients"
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT "branches"."id", "branches"."adress" FROM "branches"[0m
+  Rendered orders/_form.html.erb (10.0ms)
+  Rendered orders/new.html.erb within layouts/application (17.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1019ms (Views: 1016.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-05-03 15:26:51 -0500
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NfBYABklKrZMqrh1xsB+8u8zhJd+19t+6V4q6kNbEH39wOEzBVwdvCBGRRqQg+QwoLS1rRtQtj3QFwcXz6Z4lQ==", "order"=>{"client_id"=>"1", "branch_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "orders" ("client_id", "branch_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["client_id", 1], ["branch_id", 1], ["created_at", "2015-05-03 20:26:51.801896"], ["updated_at", "2015-05-03 20:26:51.801896"]]
+  [1m[36m (4.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders/8
+Completed 302 Found in 15ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/orders/8" for 127.0.0.1 at 2015-05-03 15:26:51 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 8]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '8';[0m
+  [1m[35mPizza Load (2.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '8';
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '8';[0m
+  Rendered orders/show.html.erb within layouts/application (7.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1042ms (Views: 1031.8ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:26:54 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (22.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1052ms (Views: 1044.7ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:26:56 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at[0m
+  Rendered orders/graph.html.erb within layouts/application (4.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1095ms (Views: 1091.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:27:36 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (28.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1143ms (Views: 1134.9ms | ActiveRecord: 5.9ms)
+
+
+Started DELETE "/orders/8" for 127.0.0.1 at 2015-05-03 15:27:39 -0500
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"feEvrZuIk3+QfTTv27licyEuuBilHbFRKMgrkGvu0L610Zaeh/GkdfyRyYCN+vixbqmJIsCa3BIRgQZt5xO4Vg==", "id"=>"8"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "orders_pizzas" WHERE "orders_pizzas"."order_id" = $1[0m  [["order_id", 8]]
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = $1  [["id", 8]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 146ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:27:39 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (24.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1093ms (Views: 1085.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:27:42 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, created_at AS created_at FROM "orders" GROUP BY created_at
+  Rendered orders/graph.html.erb within layouts/application (4.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1080ms (Views: 1076.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:27:46 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (17.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1102ms (Views: 1093.8ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:28:18 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (2.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id
+  Rendered orders/graph.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1017ms (Views: 1012.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:34:27 -0500
+Processing by OrdersController#graph as HTML
+  Rendered orders/graph.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 17ms
+
+SyntaxError (C:/Users/Miguel/Documents/tec/Cuarto Semestre/Base de Datos/Pizzerias/Pizzas/app/views/orders/graph.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting ')'
+...hart Order.group(:branch_id) as "Sucursal".count(:client_id)...
+...                               ^):
+  app/views/orders/graph.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (104.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (230.1ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:34:40 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id
+  Rendered orders/graph.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1050ms (Views: 1046.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:35:24 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (2.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id
+  Rendered orders/graph.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1085ms (Views: 1078.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:39:40 -0500
+Processing by OrdersController#graph as HTML
+  Rendered orders/graph.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `name' for :branch_id:Symbol):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.group(:branch_id.name).count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_69362568'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (108.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (107.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (237.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:40:39 -0500
+Processing by OrdersController#graph as HTML
+  Rendered orders/graph.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `adress' for :branch:Symbol):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.group(:branch.adress).count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_78789564'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (121.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (126.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (267.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:40:45 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (2.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" IN (1, 2)[0m
+  Rendered orders/graph.html.erb within layouts/application (10.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1163ms (Views: 1156.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:41:02 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (7.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, adress AS adress FROM "orders" GROUP BY adress[0m
+PG::UndefinedColumn: ERROR:  no existe la columna «adress»
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, adress AS ...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, adress AS adress FROM "orders" GROUP BY adress
+  Rendered orders/graph.html.erb within layouts/application (18.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  no existe la columna «adress»
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, adress AS ...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, adress AS adress FROM "orders" GROUP BY adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.group(:adress).count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_78685020'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (113.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (109.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (230.1ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:41:16 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (3.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_adress AS branch_adress FROM "orders" GROUP BY branch_adress
+PG::UndefinedColumn: ERROR:  no existe la columna «branch_adress»
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, branch_adr...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, branch_adress AS branch_adress FROM "orders" GROUP BY branch_adress
+  Rendered orders/graph.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  no existe la columna «branch_adress»
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, branch_adr...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, branch_adress AS branch_adress FROM "orders" GROUP BY branch_adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.group(:branch_adress).count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_80869416'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (140.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (108.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (232.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:41:26 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id[0m
+  Rendered orders/graph.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1004ms (Views: 1000.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/ingredientes" for 127.0.0.1 at 2015-05-03 15:41:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-03 15:41:49 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Redirected to http://localhost:3000/menu
+  Rendered sessions/new.html.erb within layouts/application (33.0ms)
+Completed 302 Found in 1075ms (Views: 1072.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2015-05-03 15:41:50 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1067ms (Views: 1064.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pizzu.jpg" for 127.0.0.1 at 2015-05-03 15:41:52 -0500
+
+
+Started GET "/ingridients" for 127.0.0.1 at 2015-05-03 15:42:02 -0500
+Processing by IngridientsController#index as HTML
+  [1m[36mIngridient Load (50.0ms)[0m  [1mSELECT "ingridients".* FROM "ingridients"[0m
+  Rendered ingridients/index.html.erb within layouts/application (71.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1167ms (Views: 1088.8ms | ActiveRecord: 57.1ms)
+
+
+Started DELETE "/ingridients/1" for 127.0.0.1 at 2015-05-03 15:42:07 -0500
+Processing by IngridientsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ISN1nb2t4Tij/9frDhTCar000h1GdEGCwolcoo51i8TpE8yuodTWMs8TKoRYV1io8rPjJyPzLMH7wHFfAojjLA==", "id"=>"1"}
+  [1m[36mIngridient Load (1.0ms)[0m  [1mSELECT  "ingridients".* FROM "ingridients" WHERE "ingridients"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (40.0ms)[0m  [1mDELETE FROM "ingridients_pizzas" WHERE "ingridients_pizzas"."ingridient_id" = $1[0m  [["ingridient_id", 1]]
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "ingridients" WHERE "ingridients"."id" = $1  [["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ingridients
+Completed 302 Found in 71ms (ActiveRecord: 48.0ms)
+
+
+Started GET "/ingridients" for 127.0.0.1 at 2015-05-03 15:42:07 -0500
+Processing by IngridientsController#index as HTML
+  [1m[35mIngridient Load (1.0ms)[0m  SELECT "ingridients".* FROM "ingridients"
+  Rendered ingridients/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1027ms (Views: 1021.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 15:42:14 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (7.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1023ms (Views: 1017.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas/1" for 127.0.0.1 at 2015-05-03 15:42:17 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPizza Load (1.0ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mIngridient Load (3.0ms)[0m  [1mselect distinct i.name from ingridients i inner join ingridients_pizzas a on a.ingridient_id = i.id inner join pizzas p on a.pizza_id = p.id where a.pizza_id='1';[0m
+  Rendered pizzas/show.html.erb within layouts/application (2.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1010ms (Views: 1000.7ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 15:42:19 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (3.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 984ms (Views: 980.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas/3" for 127.0.0.1 at 2015-05-03 15:42:22 -0500
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPizza Load (0.0ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mIngridient Load (1.0ms)[0m  select distinct i.name from ingridients i inner join ingridients_pizzas a on a.ingridient_id = i.id inner join pizzas p on a.pizza_id = p.id where a.pizza_id='3';
+  Rendered pizzas/show.html.erb within layouts/application (1.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 978ms (Views: 970.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 15:42:24 -0500
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (1.0ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  Rendered pizzas/index.html.erb within layouts/application (3.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1054ms (Views: 1050.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:42:30 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (16.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1020ms (Views: 1015.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2015-05-03 15:42:32 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  [1m[35mPizza Load (1.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '5';[0m
+  Rendered orders/show.html.erb within layouts/application (9.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1039ms (Views: 1026.8ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2015-05-03 15:42:38 -0500
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (1.0ms)[0m  [1mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 990ms (Views: 986.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:42:45 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (17.0ms)
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1004ms (Views: 998.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/orders/6" for 127.0.0.1 at 2015-05-03 15:42:53 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPizza Load (1.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';
+  [1m[36mPizza Load (1.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '6';
+  Rendered orders/show.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1006ms (Views: 995.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 15:42:57 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (18.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1015ms (Views: 1007.8ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:42:59 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id
+  Rendered orders/graph.html.erb within layouts/application (5.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1053ms (Views: 1048.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:44:19 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (5.0ms)[0m  SELECT COUNT("orders"."client_id") AS count_client_id, branch_adress AS branch_adress FROM "orders" GROUP BY branch_adress
+PG::UndefinedColumn: ERROR:  no existe la columna «branch_adress»
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, branch_adr...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, branch_adress AS branch_adress FROM "orders" GROUP BY branch_adress
+  Rendered orders/graph.html.erb within layouts/application (18.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  no existe la columna «branch_adress»
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, branch_adr...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, branch_adress AS branch_adress FROM "orders" GROUP BY branch_adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.group(:branch_adress).count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_66547788'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (116.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (104.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (228.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:45:16 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, branch_id AS branch_id FROM "orders" GROUP BY branch_id[0m
+  Rendered orders/graph.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1039ms (Views: 1034.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:46:45 -0500
+Processing by OrdersController#graph as HTML
+  Rendered orders/graph.html.erb within layouts/application (127.1ms)
+Completed 500 Internal Server Error in 141ms
+
+ActionView::Template::Error (Association named 'branches' was not found on Order; perhaps you misspelled it?):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.joins(:branches).group(:"branch.adress").count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_82719636'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (109.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (112.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (238.9ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:47:00 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (3.0ms)[0m  [1mSELECT COUNT("orders"."client_id") AS count_client_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress[0m
+PG::UndefinedTable: ERROR:  falta una entrada para la tabla «branch» en la cláusula FROM
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, branch.adr...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress
+  Rendered orders/graph.html.erb within layouts/application (60.1ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  falta una entrada para la tabla «branch» en la cláusula FROM
+LINE 1: ...T COUNT("orders"."client_id") AS count_client_id, branch.adr...
+                                                             ^
+: SELECT COUNT("orders"."client_id") AS count_client_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.joins(:branch).group(:"branch.adress").count(:client_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_68379120'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (104.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (231.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:47:36 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT("orders"."id") AS count_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress
+PG::UndefinedTable: ERROR:  falta una entrada para la tabla «branch» en la cláusula FROM
+LINE 1: SELECT COUNT("orders"."id") AS count_id, branch.adress AS br...
+                                                 ^
+: SELECT COUNT("orders"."id") AS count_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress
+  Rendered orders/graph.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  falta una entrada para la tabla «branch» en la cláusula FROM
+LINE 1: SELECT COUNT("orders"."id") AS count_id, branch.adress AS br...
+                                                 ^
+: SELECT COUNT("orders"."id") AS count_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.joins(:branch).group(:"branch.adress").count(:id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_78482844'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (104.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (239.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:49:40 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(order_id) AS count_order_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress[0m
+PG::UndefinedColumn: ERROR:  no existe la columna «order_id»
+LINE 1: SELECT COUNT(order_id) AS count_order_id, branch.adress AS b...
+                     ^
+: SELECT COUNT(order_id) AS count_order_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress
+  Rendered orders/graph.html.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  no existe la columna «order_id»
+LINE 1: SELECT COUNT(order_id) AS count_order_id, branch.adress AS b...
+                     ^
+: SELECT COUNT(order_id) AS count_order_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.joins(:branch).group(:"branch.adress").count(:order_id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_53640420'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (115.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (113.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (264.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:49:53 -0500
+Processing by OrdersController#graph as HTML
+  Rendered orders/graph.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined method `id' for :order:Symbol):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.joins(:branch).group(:"branch.adress").count(:order.id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_73256808'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (158.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (124.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (271.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:50:07 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (3.0ms)[0m  SELECT COUNT("orders"."id") AS count_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress
+PG::UndefinedTable: ERROR:  falta una entrada para la tabla «branch» en la cláusula FROM
+LINE 1: SELECT COUNT("orders"."id") AS count_id, branch.adress AS br...
+                                                 ^
+: SELECT COUNT("orders"."id") AS count_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress
+  Rendered orders/graph.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  falta una entrada para la tabla «branch» en la cláusula FROM
+LINE 1: SELECT COUNT("orders"."id") AS count_id, branch.adress AS br...
+                                                 ^
+: SELECT COUNT("orders"."id") AS count_id, branch.adress AS branch_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branch.adress):
+    4:     <h3>Ordenes Generadas por sucursal</h3>
+    5:     <br>
+    6: 
+    7: <p> <%= bar_chart Order.joins(:branch).group(:"branch.adress").count(:id) %> </p>
+  app/views/orders/graph.html.erb:7:in `_app_views_orders_graph_html_erb___758189593_74371932'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (117.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (107.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (238.2ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 15:53:58 -0500
+Processing by OrdersController#graph as HTML
+  [1m[36m (2.0ms)[0m  [1mSELECT COUNT("orders"."id") AS count_id, branches.adress AS branches_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branches.adress[0m
+  Rendered orders/graph.html.erb within layouts/application (7.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1077ms (Views: 1072.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 16:00:31 -0500
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered orders/index.html.erb within layouts/application (22.0ms)
+  [1m[35mEmployee Load (1.0ms)[0m  SELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 1240ms (Views: 1231.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-05-03 16:00:35 -0500
+Processing by OrdersController#new as HTML
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients"."id", "clients"."name" FROM "clients"[0m
+  [1m[35mBranch Load (1.0ms)[0m  SELECT "branches"."id", "branches"."adress" FROM "branches"
+  Rendered orders/_form.html.erb (11.0ms)
+  Rendered orders/new.html.erb within layouts/application (17.0ms)
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1077ms (Views: 1072.8ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-05-03 16:00:38 -0500
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/59c2UIHHKr0jEJBikHw/E+3Y7TAanGlb5BvUGew17k3r+XqXn4roJhgvy7cAmo+ADBSjqXtHOZW2UKt602/UQ==", "order"=>{"client_id"=>"1", "branch_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "orders" ("client_id", "branch_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["client_id", 1], ["branch_id", 1], ["created_at", "2015-05-03 21:00:38.621219"], ["updated_at", "2015-05-03 21:00:38.621219"]]
+  [1m[35m (5.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/orders/9
+Completed 302 Found in 16ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/orders/9" for 127.0.0.1 at 2015-05-03 16:00:38 -0500
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mPizza Load (1.0ms)[0m  select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '9';
+  [1m[36mPizza Load (2.0ms)[0m  [1mselect sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '9';[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mBranch Load (1.0ms)[0m  [1mSELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = '9';
+  Rendered orders/show.html.erb within layouts/application (7.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1087ms (Views: 1074.8ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-05-03 16:00:41 -0500
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mBranch Load (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBranch Load (1.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT  "clients".* FROM "clients" WHERE "clients"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "branches".* FROM "branches" WHERE "branches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (22.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1035ms (Views: 1028.8ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/grafica" for 127.0.0.1 at 2015-05-03 16:00:46 -0500
+Processing by OrdersController#graph as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT("orders"."id") AS count_id, branches.adress AS branches_adress FROM "orders" INNER JOIN "branches" ON "branches"."id" = "orders"."branch_id" GROUP BY branches.adress
+  Rendered orders/graph.html.erb within layouts/application (6.0ms)
+  [1m[36mEmployee Load (1.0ms)[0m  [1mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1020ms (Views: 1015.7ms | ActiveRecord: 2.0ms)

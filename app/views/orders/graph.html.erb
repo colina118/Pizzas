@@ -1,0 +1,7 @@
+<div class="row centered">
+  <div class="col-lg-12">
+    <h1>Tus <b> Ordenes</b></h1>
+    <h3>Ordenes Generadas por sucursal</h3>
+    <br>
+
+<p> <%= bar_chart Order.joins(:branch).group(:"branches.adress").count(:id) %> </p>
