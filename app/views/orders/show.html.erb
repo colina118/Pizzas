@@ -14,8 +14,17 @@
     <li><%= ing %></li>
 <% end %>
 
-<p><%= get_price %></p>
+<p>
+<h3>Costo total</h3>
+<%if @precio.first %>
+    $<%= @precio.first %>
+<% else %>
+    $0.00
+<% end %>
+</p>
 
 
 <%= link_to 'Edit', edit_order_path(@order), class:"btn btn-default pull-left" %>
 <%= link_to 'Back', orders_path, class:"btn btn-default" %>
+
+<%= link_to 'Descarga', orders_path(format: :csv), class:"btn btn-default"  %>

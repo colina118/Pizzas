@@ -1,0 +1,6 @@
+
+<% headers = ['Name', 'Precio'] %>
+<%= CSV.generate_line headers %>
+<% @pizzas.each do |pizza| %>
+    <%= CSV.generate_line([pizza.name, pizza.price]) %>
+<% end %>

@@ -6,7 +6,15 @@ class PizzasController < ApplicationController
   # GET /pizzas.json
   def index
     @pizzas = Pizza.all
+    respond_to do |format|
+      format.html
+      format.csv do
+        headers['Content-Disposition'] = "attachment; filename=\"pizzas.csv\""
+        headers['Content-Type'] ||= 'text/csv'
+      end
+    end
   end
+
 
   # GET /pizzas/1
   # GET /pizzas/1.json

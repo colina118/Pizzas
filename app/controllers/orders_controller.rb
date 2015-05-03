@@ -5,13 +5,23 @@ class OrdersController < ApplicationController
   # GET /orders.json
   def index
     @orders = Order.all
+    @precio = get_price
+    @pizzas = get_order_pizza
+    respond_to do |format|
+      format.html
+      format.csv do
+        headers['Content-Disposition'] = "attachment; filename=\"ordenes.csv\""
+        headers['Content-Type'] ||= 'text/csv'
+      end
+    end
   end
+
 
   # GET /orders/1
   # GET /orders/1.json
   def show
     @pizzas = get_order_pizza
-    @pizzu = get_price
+    @precio = get_price
   end
 
   # GET /orders/new
@@ -79,9 +89,9 @@ class OrdersController < ApplicationController
     arri.map{|x| x.name}
   end
   def get_price
-    Pizza.find_by_sql(["select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = ?;", params[:id]])
-
+   arre = Pizza.find_by_sql(["select sum(p.price) as precio from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = ?;", params[:id]])
+   arre.map {|x| x.precio}
 
   end
-  helper_method :get_price
+
 end
