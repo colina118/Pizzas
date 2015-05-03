@@ -21,7 +21,20 @@
 .navbar-inverse .navbar-nav > li >a {
   color: white;
 }
+.navbar-inverse .navbar-brand > li >a{
+  color: grey;
+}
+
+.navbar-default{
+  .navbar-brand{
+    color: white;
+  }
+}
 
 .navbar-inverse .navbar-nav > li >a:hover, .navbar-inverse .navbar-nav > li >a:focus {
   color: green;
+}
+
+.navbar{
+  background-image: none;
 }

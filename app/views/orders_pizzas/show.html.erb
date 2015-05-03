@@ -2,13 +2,13 @@
 
 <p>
   <strong>Order:</strong>
-  <%= @orders_pizza.order %>
+  <%= @orders_pizza.order.id %>
 </p>
 
 <p>
   <strong>Pizza:</strong>
-  <%= @orders_pizza.pizza %>
+  <%= @orders_pizza.pizza.name %>
 </p>
 
-<%= link_to 'Edit', edit_orders_pizza_path(@orders_pizza) %> |
-<%= link_to 'Back', orders_pizzas_path %>
+<%= link_to 'Edit', edit_orders_pizza_path(@orders_pizza), class:"btn btn-default pull-left" %>
+<%= link_to 'Back', orders_path, class:"btn btn-default pull-left" %>

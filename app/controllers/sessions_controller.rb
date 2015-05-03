@@ -1,4 +1,12 @@
 class SessionsController < ApplicationController
+
+
+	def check_for_user
+		 if current_user
+     	redirect_to('/menu')
+		 end
+	end
+	helper_method :check_for_user
 	def new
 
 	end
@@ -15,7 +23,7 @@ class SessionsController < ApplicationController
 		end
 	end
 
-	def destroy 
+	def destroy
 		session[:user_id] = nil
 		flash[:notice] = "Ha salido de su session"
 		redirect_to '/login'

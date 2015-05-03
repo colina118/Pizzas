@@ -10,6 +10,7 @@ class OrdersController < ApplicationController
   # GET /orders/1
   # GET /orders/1.json
   def show
+    @pizzas = get_order_pizza
   end
 
   # GET /orders/new
@@ -71,4 +72,9 @@ class OrdersController < ApplicationController
     def order_params
       params.require(:order).permit(:client_id, :branch_id)
     end
+
+  def get_order_pizza
+    arri = Pizza.find_by_sql(["select p.name from pizzas p inner join orders_pizzas a on a.pizza_id = p.id inner join orders o on a.order_id = o.id where order_id = ?;", params[:id]])
+    @items = arri.map{|x| x.name}
+  end
 end

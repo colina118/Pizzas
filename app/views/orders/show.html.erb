@@ -2,13 +2,17 @@
 
 <p>
   <strong>Client:</strong>
-  <%= @order.client %>
+  <%= @order.client.name %>
 </p>
 
 <p>
   <strong>Branch:</strong>
-  <%= @order.branch %>
+  <%= @order.branch.adress %>
 </p>
+
+<% @pizzas.each do |ing| %>
+    <li><%= ing %></li>
+<% end %>
 
 <%= link_to 'Edit', edit_order_path(@order), class:"btn btn-default pull-left" %>
 <%= link_to 'Back', orders_path, class:"btn btn-default" %>

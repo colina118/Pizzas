@@ -13,13 +13,14 @@
 
   <div class="field">
     <%= f.label :order_id %><br>
-    <%= f.text_field :order_id %>
+    <%= f.select :order_id, Order.select_values %>
   </div>
   <div class="field">
     <%= f.label :pizza_id %><br>
-    <%= f.text_field :pizza_id %>
+    <%= f.select :pizza_id, Pizza.select_values %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class:"btn btn-default pull-left"%>
+    <br></br>
   </div>
 <% end %>
