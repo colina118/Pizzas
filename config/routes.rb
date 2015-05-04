@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
   root 'sessions#new'
+  get '/orders_pizzas' => redirect('/menu')
 
   #resources :managers
   resources :employees
   #resources :ingridients_pizzas
-  #resources :orders_pizzas
+  resources :orders_pizzas
   resources :orders
   #resources :branches
   resources :clients
