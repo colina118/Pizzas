@@ -29,9 +29,9 @@
       <ul class="navbar-nav nav navbar-right">
         <% if current_user %>
           <li><%= link_to 'Logout', '/logout', class: 'navbar-link' %></li>
+          <li><%= link_to 'Create Account', '/signup', class: 'navbar-link' %></li>
         <% else %>
           <li><%= link_to 'Login', '/login', class: 'navbar-link' %></li>
-          <li><%= link_to 'Create Account', '/signup', class: 'navbar-link' %></li>
         <% end %>
       </ul>
     </div>

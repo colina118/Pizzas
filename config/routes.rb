@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
   root 'sessions#new'
 
-  resources :managers
+  #resources :managers
   resources :employees
-  resources :ingridients_pizzas
-  resources :orders_pizzas
+  #resources :ingridients_pizzas
+  #resources :orders_pizzas
   resources :orders
-  resources :branches
+  #resources :branches
   resources :clients
-  resources :ingridients
+  #resources :ingridients
   resources :pizzas
 
 
