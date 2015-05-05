@@ -27,7 +27,7 @@
                 <td class="table-cell"><%= client.lastname %></td>
                 <td class="table-cell text-center"><%= link_to '', client, class:"glyphicon glyphicon-eye-open" %></td>
                 <td class="table-cell text-center"><%= link_to '', edit_client_path(client),  class:"glyphicon glyphicon-pencil" %></td>
-                <td class="table-cell text-center"><%= link_to '', client, method: :delete, data: { confirm: 'Are you sure?' }, class:"glyphicon glyphicon-trash" %></td>
+                <td class="table-cell text-center"><%= link_to '', client, method: :delete, data: { confirm: 'Si se borra el cliente se borraran todas las ordenes de este cliente' }, class:"glyphicon glyphicon-trash" %></td>
               </tr>
           <% end %>
           </tbody>

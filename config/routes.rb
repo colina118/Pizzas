@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'sessions#new'
   get '/orders_pizzas' => redirect('/menu')
+  get '/employees' => redirect('/menu')
 
   #resources :managers
   resources :employees

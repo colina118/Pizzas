@@ -25,6 +25,7 @@
       <column name="aggmtransspace" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="agginitval" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="aggminitval" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_aggregate_fnoid_index" unique="true" columns="aggfnoid"/>
     </table>
     <table name="pg_aggregate_fnoid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="aggfnoid" sqlType="regproc" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -60,6 +61,8 @@
       <column name="amcanreturn" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="amcostestimate" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="amoptions" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_am_name_index" unique="true" columns="amname"/>
+      <index name="pg_am_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_am_name_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="amname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -76,6 +79,9 @@
       <column name="amopopr" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="amopmethod" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="amopsortfamily" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_amop_fam_strat_index" unique="true" columns="amopfamily,amoplefttype,amoprighttype,amopstrategy"/>
+      <index name="pg_amop_oid_index" unique="true" columns="oid"/>
+      <index name="pg_amop_opr_fam_index" unique="true" columns="amopopr,amoppurpose,amopfamily"/>
     </table>
     <table name="pg_amop_fam_strat_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="amopfamily" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -97,6 +103,8 @@
       <column name="amprocrighttype" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="amprocnum" sqlType="int2" precision="5" scale="0" nullable="false" jdbcType="5"/>
       <column name="amproc" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_amproc_fam_proc_index" unique="true" columns="amprocfamily,amproclefttype,amprocrighttype,amprocnum"/>
+      <index name="pg_amproc_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_amproc_fam_proc_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="amprocfamily" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -112,6 +120,8 @@
       <column name="adnum" sqlType="int2" precision="5" scale="0" nullable="false" jdbcType="5"/>
       <column name="adbin" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="adsrc" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_attrdef_adrelid_adnum_index" unique="true" columns="adrelid,adnum"/>
+      <index name="pg_attrdef_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_attrdef_adrelid_adnum_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="adrelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -142,6 +152,8 @@
       <column name="attacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="attoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="attfdwoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_attribute_relid_attnam_index" unique="true" columns="attrelid,attname"/>
+      <index name="pg_attribute_relid_attnum_index" unique="true" columns="attrelid,attnum"/>
     </table>
     <table name="pg_attribute_relid_attnam_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="attrelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -156,6 +168,8 @@
       <column name="member" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="grantor" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="admin_option" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <index name="pg_auth_members_member_role_index" unique="true" columns="member,roleid"/>
+      <index name="pg_auth_members_role_member_index" unique="true" columns="roleid,member"/>
     </table>
     <table name="pg_auth_members_member_role_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="member" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -177,6 +191,8 @@
       <column name="rolconnlimit" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="rolpassword" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="rolvaliduntil" sqlType="timestamptz" precision="35" scale="6" nullable="true" jdbcType="93"/>
+      <index name="pg_authid_oid_index" unique="true" columns="oid"/>
+      <index name="pg_authid_rolname_index" unique="true" columns="rolname"/>
     </table>
     <table name="pg_authid_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -206,6 +222,8 @@
       <column name="castfunc" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="castcontext" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
       <column name="castmethod" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
+      <index name="pg_cast_oid_index" unique="true" columns="oid"/>
+      <index name="pg_cast_source_target_index" unique="true" columns="castsource,casttarget"/>
     </table>
     <table name="pg_cast_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -244,6 +262,9 @@
       <column name="relminmxid" sqlType="xid" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="relacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="reloptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_class_oid_index" unique="true" columns="oid"/>
+      <index name="pg_class_relname_nsp_index" unique="true" columns="relname,relnamespace"/>
+      <index name="pg_class_tblspc_relfilenode_index" unique="false" columns="reltablespace,relfilenode"/>
     </table>
     <table name="pg_class_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -263,6 +284,8 @@
       <column name="collencoding" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="collcollate" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="collctype" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <index name="pg_collation_name_enc_nsp_index" unique="true" columns="collname,collencoding,collnamespace"/>
+      <index name="pg_collation_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_collation_name_enc_nsp_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="collname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -297,6 +320,10 @@
       <column name="conexclop" sqlType="_oid" precision="10" scale="0" nullable="true" jdbcType="2003"/>
       <column name="conbin" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="consrc" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_constraint_oid_index" unique="true" columns="oid"/>
+      <index name="pg_constraint_conname_nsp_index" unique="false" columns="conname,connamespace"/>
+      <index name="pg_constraint_conrelid_index" unique="false" columns="conrelid"/>
+      <index name="pg_constraint_contypid_index" unique="false" columns="contypid"/>
     </table>
     <table name="pg_constraint_conname_nsp_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="conname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -319,6 +346,9 @@
       <column name="contoencoding" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="conproc" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="condefault" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <index name="pg_conversion_default_index" unique="true" columns="connamespace,conforencoding,contoencoding,oid"/>
+      <index name="pg_conversion_name_nsp_index" unique="true" columns="conname,connamespace"/>
+      <index name="pg_conversion_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_conversion_default_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="connamespace" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -355,6 +385,8 @@
       <column name="datminmxid" sqlType="xid" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="dattablespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="datacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_database_datname_index" unique="true" columns="datname"/>
+      <index name="pg_database_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_database_datname_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="datname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -366,6 +398,7 @@
       <column name="setdatabase" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="setrole" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="setconfig" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_db_role_setting_databaseid_rol_index" unique="true" columns="setdatabase,setrole"/>
     </table>
     <table name="pg_db_role_setting_databaseid_rol_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="setdatabase" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -376,6 +409,8 @@
       <column name="defaclnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="defaclobjtype" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
       <column name="defaclacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_default_acl_oid_index" unique="true" columns="oid"/>
+      <index name="pg_default_acl_role_nsp_obj_index" unique="true" columns="defaclrole,defaclnamespace,defaclobjtype"/>
     </table>
     <table name="pg_default_acl_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -393,6 +428,8 @@
       <column name="refobjid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="refobjsubid" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="deptype" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
+      <index name="pg_depend_depender_index" unique="false" columns="classid,objid,objsubid"/>
+      <index name="pg_depend_reference_index" unique="false" columns="refclassid,refobjid,refobjsubid"/>
     </table>
     <table name="pg_depend_depender_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="classid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -409,6 +446,7 @@
       <column name="classoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="objsubid" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="description" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_description_o_c_o_index" unique="true" columns="objoid,classoid,objsubid"/>
     </table>
     <table name="pg_description_o_c_o_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -419,6 +457,9 @@
       <column name="enumtypid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="enumsortorder" sqlType="float4" precision="8" scale="8" nullable="false" jdbcType="7"/>
       <column name="enumlabel" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <index name="pg_enum_oid_index" unique="true" columns="oid"/>
+      <index name="pg_enum_typid_label_index" unique="true" columns="enumtypid,enumlabel"/>
+      <index name="pg_enum_typid_sortorder_index" unique="true" columns="enumtypid,enumsortorder"/>
     </table>
     <table name="pg_enum_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -438,6 +479,8 @@
       <column name="evtfoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="evtenabled" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
       <column name="evttags" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_event_trigger_evtname_index" unique="true" columns="evtname"/>
+      <index name="pg_event_trigger_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_event_trigger_evtname_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="evtname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -453,6 +496,8 @@
       <column name="extversion" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="extconfig" sqlType="_oid" precision="10" scale="0" nullable="true" jdbcType="2003"/>
       <column name="extcondition" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_extension_name_index" unique="true" columns="extname"/>
+      <index name="pg_extension_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_extension_name_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="extname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -467,6 +512,8 @@
       <column name="fdwvalidator" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="fdwacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="fdwoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_foreign_data_wrapper_name_index" unique="true" columns="fdwname"/>
+      <index name="pg_foreign_data_wrapper_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_foreign_data_wrapper_name_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="fdwname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -482,6 +529,8 @@
       <column name="srvversion" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="srvacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="srvoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_foreign_server_name_index" unique="true" columns="srvname"/>
+      <index name="pg_foreign_server_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_foreign_server_name_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="srvname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -493,6 +542,7 @@
       <column name="ftrelid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="ftserver" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="ftoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_foreign_table_relid_index" unique="true" columns="ftrelid"/>
     </table>
     <table name="pg_foreign_table_relid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="ftrelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -522,6 +572,8 @@
       <column name="indoption" sqlType="int2vector" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="indexprs" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="indpred" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_index_indexrelid_index" unique="true" columns="indexrelid"/>
+      <index name="pg_index_indrelid_index" unique="false" columns="indrelid"/>
     </table>
     <table name="pg_index_indexrelid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="indexrelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -540,6 +592,8 @@
       <column name="inhrelid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="inhparent" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="inhseqno" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <index name="pg_inherits_relid_seqno_index" unique="true" columns="inhrelid,inhseqno"/>
+      <index name="pg_inherits_parent_index" unique="false" columns="inhparent"/>
     </table>
     <table name="pg_inherits_parent_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="inhparent" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -557,6 +611,8 @@
       <column name="laninline" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="lanvalidator" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="lanacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_language_name_index" unique="true" columns="lanname"/>
+      <index name="pg_language_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_language_name_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="lanname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -568,6 +624,7 @@
       <column name="loid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="pageno" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="data" sqlType="bytea" precision="2147483647" scale="0" nullable="true" jdbcType="-2"/>
+      <index name="pg_largeobject_loid_pn_index" unique="true" columns="loid,pageno"/>
     </table>
     <table name="pg_largeobject_loid_pn_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="loid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -576,6 +633,7 @@
     <table name="pg_largeobject_metadata" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM TABLE">
       <column name="lomowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="lomacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_largeobject_metadata_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_largeobject_metadata_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -610,6 +668,8 @@
       <column name="nspname" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="nspowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="nspacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_namespace_nspname_index" unique="true" columns="nspname"/>
+      <index name="pg_namespace_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_namespace_nspname_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="nspname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -626,6 +686,8 @@
       <column name="opcintype" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="opcdefault" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
       <column name="opckeytype" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_opclass_am_name_nsp_index" unique="true" columns="opcmethod,opcname,opcnamespace"/>
+      <index name="pg_opclass_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_opclass_am_name_nsp_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="opcmethod" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -650,6 +712,8 @@
       <column name="oprcode" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="oprrest" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="oprjoin" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_operator_oid_index" unique="true" columns="oid"/>
+      <index name="pg_operator_oprname_l_r_n_index" unique="true" columns="oprname,oprleft,oprright,oprnamespace"/>
     </table>
     <table name="pg_operator_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -665,6 +729,8 @@
       <column name="opfname" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="opfnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="opfowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_opfamily_am_name_nsp_index" unique="true" columns="opfmethod,opfname,opfnamespace"/>
+      <index name="pg_opfamily_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_opfamily_am_name_nsp_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="opfmethod" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -683,6 +749,7 @@
       <column name="tmplvalidator" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="tmpllibrary" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="tmplacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_pltemplate_name_index" unique="true" columns="tmplname"/>
     </table>
     <table name="pg_pltemplate_name_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="tmplname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -729,6 +796,8 @@
       <column name="probin" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="proconfig" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="proacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_proc_oid_index" unique="true" columns="oid"/>
+      <index name="pg_proc_proname_args_nsp_index" unique="true" columns="proname,proargtypes,pronamespace"/>
     </table>
     <table name="pg_proc_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -745,6 +814,7 @@
       <column name="rngsubopc" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="rngcanonical" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="rngsubdiff" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_range_rngtypid_index" unique="true" columns="rngtypid"/>
     </table>
     <table name="pg_range_rngtypid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="rngtypid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -768,6 +838,8 @@
       <column name="is_instead" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
       <column name="ev_qual" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="ev_action" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_rewrite_oid_index" unique="true" columns="oid"/>
+      <index name="pg_rewrite_rel_rulename_index" unique="true" columns="ev_class,rulename"/>
     </table>
     <table name="pg_rewrite_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -803,6 +875,7 @@
       <column name="objsubid" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="provider" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="label" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_seclabel_object_index" unique="true" columns="objoid,classoid,objsubid,provider"/>
     </table>
     <table name="pg_seclabel_object_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -857,6 +930,8 @@
       <column name="refclassid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="refobjid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="deptype" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
+      <index name="pg_shdepend_depender_index" unique="false" columns="dbid,classid,objid,objsubid"/>
+      <index name="pg_shdepend_reference_index" unique="false" columns="refclassid,refobjid"/>
     </table>
     <table name="pg_shdepend_depender_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="dbid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -872,6 +947,7 @@
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="classoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="description" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_shdescription_o_c_index" unique="true" columns="objoid,classoid"/>
     </table>
     <table name="pg_shdescription_o_c_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -882,6 +958,7 @@
       <column name="classoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="provider" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="label" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_shseclabel_object_index" unique="true" columns="objoid,classoid,provider"/>
     </table>
     <table name="pg_shseclabel_object_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1249,6 +1326,7 @@
       <column name="stavalues3" sqlType="anyarray" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="stavalues4" sqlType="anyarray" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="stavalues5" sqlType="anyarray" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_statistic_relid_att_inh_index" unique="true" columns="starelid,staattnum,stainherit"/>
     </table>
     <table name="pg_statistic_relid_att_inh_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="starelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1285,6 +1363,8 @@
       <column name="spcowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="spcacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="spcoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_tablespace_oid_index" unique="true" columns="oid"/>
+      <index name="pg_tablespace_spcname_index" unique="true" columns="spcname"/>
     </table>
     <table name="pg_tablespace_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1319,6 +1399,9 @@
       <column name="tgattr" sqlType="int2vector" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="tgargs" sqlType="bytea" precision="2147483647" scale="0" nullable="true" jdbcType="-2"/>
       <column name="tgqual" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_trigger_oid_index" unique="true" columns="oid"/>
+      <index name="pg_trigger_tgrelid_tgname_index" unique="true" columns="tgrelid,tgname"/>
+      <index name="pg_trigger_tgconstraint_index" unique="false" columns="tgconstraint"/>
     </table>
     <table name="pg_trigger_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1335,6 +1418,8 @@
       <column name="cfgnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="cfgowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="cfgparser" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_ts_config_cfgname_index" unique="true" columns="cfgname,cfgnamespace"/>
+      <index name="pg_ts_config_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_ts_config_cfgname_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="cfgname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -1345,6 +1430,7 @@
       <column name="maptokentype" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="mapseqno" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="mapdict" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_ts_config_map_index" unique="true" columns="mapcfg,maptokentype,mapseqno"/>
     </table>
     <table name="pg_ts_config_map_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="mapcfg" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1360,6 +1446,8 @@
       <column name="dictowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="dicttemplate" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="dictinitoption" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_ts_dict_dictname_index" unique="true" columns="dictname,dictnamespace"/>
+      <index name="pg_ts_dict_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_ts_dict_dictname_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="dictname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -1376,6 +1464,8 @@
       <column name="prsend" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="prsheadline" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="prslextype" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_ts_parser_oid_index" unique="true" columns="oid"/>
+      <index name="pg_ts_parser_prsname_index" unique="true" columns="prsname,prsnamespace"/>
     </table>
     <table name="pg_ts_parser_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1389,6 +1479,8 @@
       <column name="tmplnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="tmplinit" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="tmpllexize" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_ts_template_oid_index" unique="true" columns="oid"/>
+      <index name="pg_ts_template_tmplname_index" unique="true" columns="tmplname,tmplnamespace"/>
     </table>
     <table name="pg_ts_template_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1428,6 +1520,8 @@
       <column name="typdefaultbin" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="typdefault" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="typacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_type_oid_index" unique="true" columns="oid"/>
+      <index name="pg_type_typname_nsp_index" unique="true" columns="typname,typnamespace"/>
     </table>
     <table name="pg_type_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1451,6 +1545,8 @@
       <column name="umuser" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="umserver" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="umoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_user_mapping_oid_index" unique="true" columns="oid"/>
+      <index name="pg_user_mapping_user_server_index" unique="true" columns="umuser,umserver"/>
     </table>
     <table name="pg_user_mapping_oid_index" schema="pg_catalog" catalog="pizzeria_development" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -1480,6 +1576,9 @@
       <column name="phone_number" sqlType="varchar" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="branches_pkey" columns="id"/>
+      <exported-key name="fk_rails_4f1ab19b11" table="employees" schema="public" catalog="pizzeria_development" columns="branch_id"/>
+      <exported-key name="fk_rails_73aae422fb" table="orders" schema="public" catalog="pizzeria_development" columns="branch_id"/>
     </table>
     <table name="branches_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1501,6 +1600,8 @@
       <column name="address" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="clients_pkey" columns="id"/>
+      <exported-key name="fk_rails_91622cd0d3" table="orders" schema="public" catalog="pizzeria_development" columns="client_id"/>
     </table>
     <table name="clients_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1523,6 +1624,10 @@
       <column name="password_digest" sqlType="varchar" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="employees_pkey" columns="id"/>
+      <foreign-key name="fk_rails_4f1ab19b11" columns="branch_id" ref-table="branches" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_rails_a52bd2d807" table="managers" schema="public" catalog="pizzeria_development" columns="employee_id"/>
+      <index name="index_employees_on_branch_id" unique="false" columns="branch_id"/>
     </table>
     <table name="employees_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1542,6 +1647,8 @@
       <column name="price" sqlType="float8" precision="17" scale="17" nullable="false" jdbcType="8"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="ingridients_pkey" columns="id"/>
+      <exported-key name="fk_rails_f85296e84c" table="ingridients_pizzas" schema="public" catalog="pizzeria_development" columns="ingridient_id"/>
     </table>
     <table name="ingridients_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1561,6 +1668,11 @@
       <column name="ingridient_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="ingridients_pizzas_pkey" columns="id"/>
+      <foreign-key name="fk_rails_f85296e84c" columns="ingridient_id" ref-table="ingridients" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_rails_24f7872362" columns="pizza_id" ref-table="pizzas" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="index_ingridients_pizzas_on_ingridient_id" unique="false" columns="ingridient_id"/>
+      <index name="index_ingridients_pizzas_on_pizza_id" unique="false" columns="pizza_id"/>
     </table>
     <table name="ingridients_pizzas_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1580,6 +1692,9 @@
       <column name="shift" sqlType="varchar" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="managers_pkey" columns="id"/>
+      <foreign-key name="fk_rails_a52bd2d807" columns="employee_id" ref-table="employees" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="index_managers_on_employee_id" unique="false" columns="employee_id"/>
     </table>
     <table name="managers_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1599,6 +1714,12 @@
       <column name="branch_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="orders_pkey" columns="id"/>
+      <foreign-key name="fk_rails_73aae422fb" columns="branch_id" ref-table="branches" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_rails_91622cd0d3" columns="client_id" ref-table="clients" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_rails_fbbac8cade" table="orders_pizzas" schema="public" catalog="pizzeria_development" columns="order_id"/>
+      <index name="index_orders_on_branch_id" unique="false" columns="branch_id"/>
+      <index name="index_orders_on_client_id" unique="false" columns="client_id"/>
     </table>
     <table name="orders_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1618,6 +1739,11 @@
       <column name="pizza_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="orders_pizzas_pkey" columns="id"/>
+      <foreign-key name="fk_rails_fbbac8cade" columns="order_id" ref-table="orders" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_rails_48f3f8233e" columns="pizza_id" ref-table="pizzas" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="index_orders_pizzas_on_order_id" unique="false" columns="order_id"/>
+      <index name="index_orders_pizzas_on_pizza_id" unique="false" columns="pizza_id"/>
     </table>
     <table name="orders_pizzas_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1637,6 +1763,9 @@
       <column name="price" sqlType="float8" precision="17" scale="17" nullable="false" jdbcType="8"/>
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <primary-key name="pizzas_pkey" columns="id"/>
+      <exported-key name="fk_rails_24f7872362" table="ingridients_pizzas" schema="public" catalog="pizzeria_development" columns="pizza_id"/>
+      <exported-key name="fk_rails_48f3f8233e" table="orders_pizzas" schema="public" catalog="pizzeria_development" columns="pizza_id"/>
     </table>
     <table name="pizzas_id_seq" schema="public" catalog="pizzeria_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1652,6 +1781,7 @@
     </table>
     <table name="schema_migrations" schema="public" catalog="pizzeria_development" type="TABLE">
       <column name="version" sqlType="varchar" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <index name="unique_schema_migrations" unique="true" columns="version"/>
     </table>
     <procedure name="RI_FKey_cascade_del" schema="pg_catalog" catalog="pizzeria_development" type="2" remarks="cmVmZXJlbnRpYWwgaW50ZWdyaXR5IE9OIERFTEVURSBDQVNDQURF">
       <prototype>
@@ -19193,6 +19323,16 @@
         <parameter name="returnValue" sqlType="bool" precision="0" scale="0" nullable="true" jdbcType="-7" type="5" index="0"/>
       </prototype>
     </procedure>
+    <procedure name="borra_cliente" schema="public" catalog="pizzeria_development" type="2">
+      <prototype>
+        <parameter name="returnValue" sqlType="trigger" precision="0" scale="0" nullable="true" jdbcType="1111" type="5" index="0"/>
+      </prototype>
+    </procedure>
+    <procedure name="borra_orden" schema="public" catalog="pizzeria_development" type="2">
+      <prototype>
+        <parameter name="returnValue" sqlType="trigger" precision="0" scale="0" nullable="true" jdbcType="1111" type="5" index="0"/>
+      </prototype>
+    </procedure>
   </data-source>
   <data-source name="Rails Pizzas: test" uuid="59432293-03b8-4e13-8e68-1235e2c80160">
     <database-info product="PostgreSQL" version="9.4.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -19640,6 +19780,7 @@
       <column name="classoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="objsubid" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="description" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_description_o_c_o_index" unique="true" columns="objoid,classoid,objsubid"/>
     </table>
     <table name="pg_description_o_c_o_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19650,6 +19791,9 @@
       <column name="enumtypid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="enumsortorder" sqlType="float4" precision="8" scale="8" nullable="false" jdbcType="7"/>
       <column name="enumlabel" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <index name="pg_enum_oid_index" unique="true" columns="oid"/>
+      <index name="pg_enum_typid_label_index" unique="true" columns="enumtypid,enumlabel"/>
+      <index name="pg_enum_typid_sortorder_index" unique="true" columns="enumtypid,enumsortorder"/>
     </table>
     <table name="pg_enum_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19669,6 +19813,8 @@
       <column name="evtfoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="evtenabled" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
       <column name="evttags" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_event_trigger_evtname_index" unique="true" columns="evtname"/>
+      <index name="pg_event_trigger_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_event_trigger_evtname_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="evtname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19684,6 +19830,8 @@
       <column name="extversion" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="extconfig" sqlType="_oid" precision="10" scale="0" nullable="true" jdbcType="2003"/>
       <column name="extcondition" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_extension_name_index" unique="true" columns="extname"/>
+      <index name="pg_extension_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_extension_name_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="extname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19698,6 +19846,8 @@
       <column name="fdwvalidator" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="fdwacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="fdwoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_foreign_data_wrapper_name_index" unique="true" columns="fdwname"/>
+      <index name="pg_foreign_data_wrapper_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_foreign_data_wrapper_name_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="fdwname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19713,6 +19863,8 @@
       <column name="srvversion" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="srvacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="srvoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_foreign_server_name_index" unique="true" columns="srvname"/>
+      <index name="pg_foreign_server_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_foreign_server_name_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="srvname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19724,6 +19876,7 @@
       <column name="ftrelid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="ftserver" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="ftoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_foreign_table_relid_index" unique="true" columns="ftrelid"/>
     </table>
     <table name="pg_foreign_table_relid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="ftrelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19753,6 +19906,8 @@
       <column name="indoption" sqlType="int2vector" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="indexprs" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="indpred" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_index_indexrelid_index" unique="true" columns="indexrelid"/>
+      <index name="pg_index_indrelid_index" unique="false" columns="indrelid"/>
     </table>
     <table name="pg_index_indexrelid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="indexrelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19771,6 +19926,8 @@
       <column name="inhrelid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="inhparent" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="inhseqno" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <index name="pg_inherits_relid_seqno_index" unique="true" columns="inhrelid,inhseqno"/>
+      <index name="pg_inherits_parent_index" unique="false" columns="inhparent"/>
     </table>
     <table name="pg_inherits_parent_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="inhparent" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19788,6 +19945,8 @@
       <column name="laninline" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="lanvalidator" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="lanacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_language_name_index" unique="true" columns="lanname"/>
+      <index name="pg_language_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_language_name_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="lanname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19799,6 +19958,7 @@
       <column name="loid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="pageno" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="data" sqlType="bytea" precision="2147483647" scale="0" nullable="true" jdbcType="-2"/>
+      <index name="pg_largeobject_loid_pn_index" unique="true" columns="loid,pageno"/>
     </table>
     <table name="pg_largeobject_loid_pn_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="loid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19807,6 +19967,7 @@
     <table name="pg_largeobject_metadata" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM TABLE">
       <column name="lomowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="lomacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_largeobject_metadata_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_largeobject_metadata_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19841,6 +20002,8 @@
       <column name="nspname" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="nspowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="nspacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_namespace_nspname_index" unique="true" columns="nspname"/>
+      <index name="pg_namespace_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_namespace_nspname_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="nspname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19857,6 +20020,8 @@
       <column name="opcintype" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="opcdefault" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
       <column name="opckeytype" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_opclass_am_name_nsp_index" unique="true" columns="opcmethod,opcname,opcnamespace"/>
+      <index name="pg_opclass_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_opclass_am_name_nsp_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="opcmethod" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19881,6 +20046,8 @@
       <column name="oprcode" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="oprrest" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="oprjoin" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_operator_oid_index" unique="true" columns="oid"/>
+      <index name="pg_operator_oprname_l_r_n_index" unique="true" columns="oprname,oprleft,oprright,oprnamespace"/>
     </table>
     <table name="pg_operator_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19896,6 +20063,8 @@
       <column name="opfname" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="opfnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="opfowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_opfamily_am_name_nsp_index" unique="true" columns="opfmethod,opfname,opfnamespace"/>
+      <index name="pg_opfamily_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_opfamily_am_name_nsp_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="opfmethod" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19914,6 +20083,7 @@
       <column name="tmplvalidator" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="tmpllibrary" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="tmplacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_pltemplate_name_index" unique="true" columns="tmplname"/>
     </table>
     <table name="pg_pltemplate_name_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="tmplname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -19960,6 +20130,8 @@
       <column name="probin" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="proconfig" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="proacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_proc_oid_index" unique="true" columns="oid"/>
+      <index name="pg_proc_proname_args_nsp_index" unique="true" columns="proname,proargtypes,pronamespace"/>
     </table>
     <table name="pg_proc_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19976,6 +20148,7 @@
       <column name="rngsubopc" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="rngcanonical" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="rngsubdiff" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_range_rngtypid_index" unique="true" columns="rngtypid"/>
     </table>
     <table name="pg_range_rngtypid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="rngtypid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -19999,6 +20172,8 @@
       <column name="is_instead" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
       <column name="ev_qual" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="ev_action" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_rewrite_oid_index" unique="true" columns="oid"/>
+      <index name="pg_rewrite_rel_rulename_index" unique="true" columns="ev_class,rulename"/>
     </table>
     <table name="pg_rewrite_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20034,6 +20209,7 @@
       <column name="objsubid" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="provider" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="label" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_seclabel_object_index" unique="true" columns="objoid,classoid,objsubid,provider"/>
     </table>
     <table name="pg_seclabel_object_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20088,6 +20264,8 @@
       <column name="refclassid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="refobjid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="deptype" sqlType="char" precision="1" scale="0" nullable="false" jdbcType="1"/>
+      <index name="pg_shdepend_depender_index" unique="false" columns="dbid,classid,objid,objsubid"/>
+      <index name="pg_shdepend_reference_index" unique="false" columns="refclassid,refobjid"/>
     </table>
     <table name="pg_shdepend_depender_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="dbid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20103,6 +20281,7 @@
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="classoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="description" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_shdescription_o_c_index" unique="true" columns="objoid,classoid"/>
     </table>
     <table name="pg_shdescription_o_c_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20113,6 +20292,7 @@
       <column name="classoid" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="provider" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="label" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_shseclabel_object_index" unique="true" columns="objoid,classoid,provider"/>
     </table>
     <table name="pg_shseclabel_object_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="objoid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20480,6 +20660,7 @@
       <column name="stavalues3" sqlType="anyarray" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="stavalues4" sqlType="anyarray" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="stavalues5" sqlType="anyarray" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_statistic_relid_att_inh_index" unique="true" columns="starelid,staattnum,stainherit"/>
     </table>
     <table name="pg_statistic_relid_att_inh_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="starelid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20516,6 +20697,8 @@
       <column name="spcowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="spcacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
       <column name="spcoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_tablespace_oid_index" unique="true" columns="oid"/>
+      <index name="pg_tablespace_spcname_index" unique="true" columns="spcname"/>
     </table>
     <table name="pg_tablespace_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20550,6 +20733,9 @@
       <column name="tgattr" sqlType="int2vector" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="tgargs" sqlType="bytea" precision="2147483647" scale="0" nullable="true" jdbcType="-2"/>
       <column name="tgqual" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
+      <index name="pg_trigger_oid_index" unique="true" columns="oid"/>
+      <index name="pg_trigger_tgrelid_tgname_index" unique="true" columns="tgrelid,tgname"/>
+      <index name="pg_trigger_tgconstraint_index" unique="false" columns="tgconstraint"/>
     </table>
     <table name="pg_trigger_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20566,6 +20752,8 @@
       <column name="cfgnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="cfgowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="cfgparser" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_ts_config_cfgname_index" unique="true" columns="cfgname,cfgnamespace"/>
+      <index name="pg_ts_config_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_ts_config_cfgname_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="cfgname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -20576,6 +20764,7 @@
       <column name="maptokentype" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="mapseqno" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="mapdict" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
+      <index name="pg_ts_config_map_index" unique="true" columns="mapcfg,maptokentype,mapseqno"/>
     </table>
     <table name="pg_ts_config_map_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="mapcfg" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20591,6 +20780,8 @@
       <column name="dictowner" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="dicttemplate" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="dictinitoption" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <index name="pg_ts_dict_dictname_index" unique="true" columns="dictname,dictnamespace"/>
+      <index name="pg_ts_dict_oid_index" unique="true" columns="oid"/>
     </table>
     <table name="pg_ts_dict_dictname_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="dictname" sqlType="cstring" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
@@ -20607,6 +20798,8 @@
       <column name="prsend" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="prsheadline" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="prslextype" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_ts_parser_oid_index" unique="true" columns="oid"/>
+      <index name="pg_ts_parser_prsname_index" unique="true" columns="prsname,prsnamespace"/>
     </table>
     <table name="pg_ts_parser_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20620,6 +20813,8 @@
       <column name="tmplnamespace" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="tmplinit" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
       <column name="tmpllexize" sqlType="regproc" precision="2147483647" scale="0" nullable="false" jdbcType="1111"/>
+      <index name="pg_ts_template_oid_index" unique="true" columns="oid"/>
+      <index name="pg_ts_template_tmplname_index" unique="true" columns="tmplname,tmplnamespace"/>
     </table>
     <table name="pg_ts_template_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20659,6 +20854,8 @@
       <column name="typdefaultbin" sqlType="pg_node_tree" precision="2147483647" scale="0" nullable="true" jdbcType="1111"/>
       <column name="typdefault" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
       <column name="typacl" sqlType="_aclitem" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_type_oid_index" unique="true" columns="oid"/>
+      <index name="pg_type_typname_nsp_index" unique="true" columns="typname,typnamespace"/>
     </table>
     <table name="pg_type_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
@@ -20682,6 +20879,8 @@
       <column name="umuser" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="umserver" sqlType="oid" precision="10" scale="0" nullable="false" jdbcType="-5"/>
       <column name="umoptions" sqlType="_text" precision="2147483647" scale="0" nullable="true" jdbcType="2003"/>
+      <index name="pg_user_mapping_oid_index" unique="true" columns="oid"/>
+      <index name="pg_user_mapping_user_server_index" unique="true" columns="umuser,umserver"/>
     </table>
     <table name="pg_user_mapping_oid_index" schema="pg_catalog" catalog="pizzeria_tes" type="SYSTEM INDEX">
       <column name="oid" sqlType="oid" precision="10" scale="0" nullable="true" jdbcType="-5"/>
